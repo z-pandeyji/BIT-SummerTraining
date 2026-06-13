@@ -1,4 +1,5 @@
-# Print_name_age_collegename.py
+# 1. Print your name, age, and college name.
+
 student_name=input("Enter the name of student:")
 student_age=int(input("Enter the age of the student:"))
 college_name=input("Enter the college name:")

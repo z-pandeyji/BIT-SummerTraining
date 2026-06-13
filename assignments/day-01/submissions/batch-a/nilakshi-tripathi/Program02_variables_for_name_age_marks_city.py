@@ -1,4 +1,4 @@
-# variables_for_name_age_marks_city
+# 2. Create variables for name, age, marks, and city.
 
 name="Nilakshi"
 age=20
