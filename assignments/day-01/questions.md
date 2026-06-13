@@ -5,7 +5,6 @@
 Complete the questions below in one file named `solution.py`.
 
 ## Questions
-
 1. Print your name, age, and college name.
 2. Create variables for name, age, marks, and city.
 3. Use these data types: string, integer, float, and boolean.
