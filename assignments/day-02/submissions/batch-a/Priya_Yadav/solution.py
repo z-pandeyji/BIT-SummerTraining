@@ -16,7 +16,7 @@ else:
 list=[1,2,3,4,5,6,7,8,9,10] 
 for i in list:
     print(i)   
-# QUESTION 4 
+# QUESTION 4
 maths=float(input("enter maths marks"))
 physics=float(input("enter physics marks"))
 chem=float(input("enter chemistry marks"))
