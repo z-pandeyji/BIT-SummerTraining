@@ -37,14 +37,8 @@ print("The Average marks of the three subject are : ",round(result,3))
 print("="*45)
 # question 5------------------------------------------
 # Write a function named `grade_student` that prints a grade based on marks
-def grade_student():
-    student_marks1=float(input("Enter the  marks of subject 1 to check grade \n"))
-    student_marks2=float(input("Enter the marks of subject 2 to check grade\n"))
-    student_marks3=float(input("Enter the marks of subject 3 to check grade\n"))
-    student_marks4=float(input("Enter the  marks of subject 4 to check grade\n"))
-    student_marks5=float(input("Enter the  marks of subject 5 to check grade\n"))
+def grade_student(total_marks):
     
-    total_marks = student_marks1+student_marks2+ student_marks3+ student_marks4+student_marks5
     if total_marks >=450:
         print("Grade A")
     elif total_marks >=400:
@@ -56,6 +50,13 @@ def grade_student():
     else:
         print("Fail")
 
-student=grade_student()
+student_marks1=float(input("Enter the  marks of subject 1 to check grade \n"))
+student_marks2=float(input("Enter the marks of subject 2 to check grade\n"))
+student_marks3=float(input("Enter the marks of subject 3 to check grade\n"))
+student_marks4=float(input("Enter the  marks of subject 4 to check grade\n"))
+student_marks5=float(input("Enter the  marks of subject 5 to check grade\n"))
+    
+total_marks = student_marks1+student_marks2+ student_marks3+ student_marks4+student_marks5
+student=grade_student(total_marks)
 
  
