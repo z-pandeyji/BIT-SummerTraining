@@ -3,10 +3,10 @@
 print("1: Print your name age and college name ")
 print("="*45)
 name = "Shalu" # variable name contain shalu
-roll_no = 20   # 20 assign to roll_no
+age = 65   # 65 assign to age
 college_name = "Buddha Institute of Technology" # college name assign to variable
 print("My name is :",name) # print the value of name
-print("My roll number is :",roll_no) # print the value of roll number
+print("My age is :",age) # print the value of age
 print("My college name is :",college_name) # print the value of college name
 print("-"*45)
 # Questionn 2
@@ -38,12 +38,16 @@ for num in numbers_list: # traverse all the the elements of list
     print(num)
 print("-"*45)    
 # Question 5
-print("5:Create a dictonary with name , course , city and branch")
+print("5:Create a dictonary with name , course , city and batch")
 print("="*45)
 dict1 ={
     "name" :"Shalu",
     "course" :"B.tech",
     "city" :"Gorakhpur",
-    "branch" :"AIML"
+    "batch" :"A"
 } # creating a dictonary
 print(dict1) # printing the created dictonary
+print("-"*45)
+# Question 6-- Write one comment explaining what your program does.
+# In this program basic terms of python are used like printing , variables , list , dictonary ,loop, datatypes 
+# and perform basic operations 
