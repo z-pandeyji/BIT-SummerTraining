@@ -59,6 +59,7 @@ for items in python_students:
         c_st.append(items)
 print("="*50)       
 print(c_st)
+print("="*50)
 
 
 
