@@ -1,0 +1,5 @@
+Pillow<12,>=10.0
+PyMuPDF<1.27,>=1.23
+
+[dev]
+pytest<9,>=8.0
