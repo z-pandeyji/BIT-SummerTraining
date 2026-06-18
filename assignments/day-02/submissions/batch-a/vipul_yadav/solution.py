@@ -40,12 +40,13 @@ print("#"*45)
 def calculate_average(num1 ,num2, num3):
     total_marks = num1 + num2 + num3
     average = total_marks/ 3
-    print("Average marks  :" ,average)
+    return average
 
 num1 = float(input("Enter the marks 1:"))
 num2 = float(input("Enter the marks 2:"))
 num3 = float(input("Enter the marks 3:"))
-calculate_average(num1,num2,num3)
+average = calculate_average(num1,num2,num3)
+print("Average marks:", average)
 print("#"*45)
 
 
