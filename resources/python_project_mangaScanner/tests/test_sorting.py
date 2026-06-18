@@ -18,5 +18,5 @@ def test_natural_sort_is_case_insensitive_for_text_parts() -> None:
     assert sorted(names, key=natural_sort_key) == [
         "page1.png",
         "Page2.PNG",
-        "page10.png",
+        "page10.png",q
     ]

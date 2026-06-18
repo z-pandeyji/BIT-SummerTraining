@@ -9,7 +9,7 @@ Complete the questions below in one file named `solution.py`.
 1. Print your name, age, and college name.
 2. Create variables for name, age, marks, and city.
 3. Use these data types: string, integer, float, and boolean.
-4. Create a list of 5 numbers and print the list.
+4. Create a list of 5 numbers and print ist.the l
 5. Create a dictionary with name, course, city, and batch.
 6. Write one comment explaining what your program does.
 
