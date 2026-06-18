@@ -21,7 +21,7 @@ print("="*45)
 # Create a set of 4 course names. Add `"AI"` to the set and print the sorted list of courses.
 # Expected Output:
 # ['AI', 'Data Analytics', 'Machine Learning', 'Python', 'SQL']
-course_names = {"DS","IT","EC","CE"}
+course_names = {"Data Analytics","Machine Learning","Python","SQL"}
 course_names.add("AI")
 course_name=list(course_names)
 print(sorted(course_name))
