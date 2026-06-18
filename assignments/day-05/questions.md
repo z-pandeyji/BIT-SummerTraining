@@ -52,7 +52,7 @@ Count the total number of lines in `student.txt` and print the result.
 
 ## Medium Questions
 
-### Question 5: Write Multiple Students
+#Question 5: Write Multiple Students## 
 
 Create a file named `students.txt`. Write 5 student names, one name on each line. Read the file and print all names.
 
