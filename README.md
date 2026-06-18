@@ -28,6 +28,11 @@ assignments/
     submissions/
       batch-a/
       batch-b/
+  day-05/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
 resources/
   setup-guide.md
   python-basics.md
