@@ -1,11 +1,12 @@
-#print name
-name=input("Enter your name:")
+# Print your name, age, and college name.
+name=input("Enter name:")
 print(name)
-#print collage name
-clg_name=input("Enter your collage name:")
+age = int(input("Enter age:"))
+print(age)
+clg_name=input("Enter collage name:")
 print(clg_name)
 
-#create variable for name, age, marks and city
+#Create variables for name, age, marks, and city.
 name= "Ankita"
 age=21
 marks=97
