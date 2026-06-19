@@ -42,6 +42,108 @@ print(sor)
 # # Expected Output:
 # # Name: Rahul
 # # Course: Python Data AI
+student = {
+    "name": "Rahul",
+    "course": "Python Data AI",
+    "batch": "B1",
+    "city": "Lucknow"
+}
+
+print("Name:", student["name"])
+print("Course:", student["course"])
+
+
+### Question 5: Filter Even Numbers
+
+# Create a list of numbers from 1 to 10. Create a new list that contains only even numbers and print it.
+
+# ```python
+# Expected Output:
+# [2, 4, 6, 8, 10]
+
+
+numbers = list(range(1, 11))
+
+even_numbers = []
+
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+
+print(even_numbers)
+
+
+### Question 6: Count Word Frequency
+
+# Create a list of words:
+
+# ```python
+# words = ["python", "ai", "python", "data", "ai", "python"]
+# ```
+
+# Use a dictionary to count how many times each word appears and print the dictionary.
+
+# ```python
+# # Expected Output:
+# # {'python': 3, 'ai': 2, 'data': 1}
+# Create a list of words
+words = ["python", "ai", "python", "data", "ai", "python"]
+frequency = {}
+for word in words:
+    if word in frequency:
+        frequency[word] += 1
+    else:
+        frequency[word] = 1
+print(frequency)
+
+
+### Question 7: Nested Student Dictionary
+
+# Create a nested dictionary for one student with name, marks, and skills. Add one new skill `"Pandas"` and print the updated dictionary.
+
+# ```python
+# # Expected Output:
+# # {'name': 'Neha', 'marks': {'python': 85, 'data': 90}, 'skills': ['Python', 'SQL', 'Pandas']
+student = {
+    "name": "Neha",
+    "marks": {
+        "python": 85,
+        "data": 90
+    },
+    "skills": ["Python", "SQL"]
+}
+
+student["skills"].append("Pandas")
+
+print(student)
 
 
 
+## Question 8: Common Elements
+
+# Create two sets:
+
+# ```python
+# python_students = {"Aman", "Priya", "Raj", "Neha"}
+# ai_students = {"Raj", "Neha", "Vivek", "Shalu"}
+# ```
+
+# Find the common students and print them as a sorted list.
+
+# ```python
+# # Expected Output:
+# # ['Neha', 'Raj']
+
+
+student = {
+    "name": "Neha",
+    "marks": {
+        "python": 85,
+        "data": 90
+    },
+    "skills": ["Python", "SQL"]
+}
+
+student["skills"].append("Pandas")
+
+print(student)
