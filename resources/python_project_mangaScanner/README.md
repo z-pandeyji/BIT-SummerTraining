@@ -1,5 +1,21 @@
 # Manga/Manhwa Markdown Scanner
 
+## 🎉 NEW: Real OCR Support!
+
+This project now supports **real OCR text detection** using EasyOCR!
+
+### Without OCR (Fast)
+```bash
+manga-scan samples/image_folder --output result.md
+```
+
+### With OCR (Detects Text)
+```bash
+manga-scan samples/image_folder --output result.md --ocr
+```
+
+---
+
 This is a Python assignment scaffold. Students complete the TODO-marked functions so the scanner can read manga/manhwa sources and produce a Markdown report.
 
 Start here:
@@ -13,6 +29,7 @@ Then read:
 - `PROJECT_WALKTHROUGH.md`
 - `TRY_SAMPLE_INPUTS.md`
 - `PROGRESS_CHECKLIST.md`
+- **`REAL_OCR_GUIDE.md`** ← NEW! Real OCR usage guide
 
 ## What The Scanner Supports
 
@@ -26,12 +43,24 @@ Then read:
 
 Python 3.9 or newer is required.
 
+### Basic Installation (Without OCR)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e ".[dev]"
 pytest
 ```
+
+### With Real OCR Support
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ".[dev]"
+python -m pip install easyocr
+pytest
+```
+
+First OCR run will download models (~100MB).
 
 Run one focused test file:
 
@@ -45,6 +74,27 @@ Run the CLI after implementing the TODOs:
 python scripts/create_demo_cbz.py
 manga-scan samples/demo_cbz.zip --output scan.md
 ```
+
+### With OCR:
+
+```bash
+manga-scan samples/demo_cbz.zip --output scan_with_ocr.md --ocr
+```
+
+### OCR Language Support:
+
+```bash
+# English (default)
+manga-scan samples/demo.pdf --output result.md --ocr
+
+# Japanese
+manga-scan samples/demo.pdf --output result.md --ocr --lang ja
+
+# Korean
+manga-scan samples/demo.pdf --output result.md --ocr --lang ko
+```
+
+See `REAL_OCR_GUIDE.md` for complete OCR documentation.
 
 ## Student Task
 
