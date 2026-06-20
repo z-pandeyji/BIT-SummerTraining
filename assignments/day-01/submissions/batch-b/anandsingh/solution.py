@@ -31,5 +31,3 @@ student={
     "batch": "B"
 }
 print("dictionary",student)
-
-

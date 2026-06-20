@@ -1,6 +1,7 @@
 """Sorting helpers for manga page filenames."""
 
 from __future__ import annotations
+import re
 
 
 def natural_sort_key(value: str) -> tuple[object, ...]:
@@ -8,9 +9,11 @@ def natural_sort_key(value: str) -> tuple[object, ...]:
 
     Example:
         ``page2.png`` should sort before ``page10.png``.
-
-    TODO: Split the string into text and digit chunks. Lowercase text chunks,
-    convert digit chunks to integers, and return them as a tuple.
     """
 
-    raise NotImplementedError("TODO: implement natural_sort_key")
+    parts = re.split(r'(\d+)', value)
+
+    return tuple(
+        int(part) if part.isdigit() else part.lower()
+        for part in parts
+    )
