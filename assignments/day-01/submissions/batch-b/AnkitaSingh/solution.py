@@ -1,6 +1,7 @@
 #print name
 name=input("Enter your name:")
 print(name)
+print(21)
 #print collage name
 clg_name=input("Enter your collage name:")
 print(clg_name)
