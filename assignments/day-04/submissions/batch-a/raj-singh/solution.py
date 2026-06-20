@@ -24,8 +24,8 @@ student_dict={                      #Create a dictionary with keys `name`, `cour
     "batch":"batch a",
     "city":"Gorakhpur",
 }
-print(f"Name: {student_dict["name"]}")         #printing name  
-print(f"Course: {student_dict["course"]}")       #printing cources
+print("Name:", {student_dict["name"]})         #printing name  
+print("Course:", {student_dict["course"]})       #printing cources
 
 
 
@@ -55,12 +55,12 @@ student={                   #creating a nested dictionary
     "name":"Neha",
     "marks":{
         "python":85,
-        "Data":90,
+        "data":90,
     },
-    "skill":["Python","SQL"]
+    "skills":["Python","SQL"]
 }
 
-student["skill"].append("Pandas") #adding a new skill to student
+student["skills"].append("Pandas") #adding a new skill to student
 print(student)                       #printing updated dictionary
 
 ### Question 8: Common Elements
