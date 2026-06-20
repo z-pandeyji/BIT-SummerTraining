@@ -28,6 +28,21 @@ assignments/
     submissions/
       batch-a/
       batch-b/
+  day-05/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-06/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-07/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
 resources/
   setup-guide.md
   python-basics.md
@@ -82,7 +97,7 @@ assignments/day-01/submissions/batch-a/your-name/solution.py
 Commit and push:
 
 ```bash
-git add .
+git add assignments/day-01/submissions/batch-a/your-name/solution.py
 git commit -m "Add Day 1 assignment by Your Name"
 git push origin day-01-your-name
 ```
@@ -93,6 +108,7 @@ Then open GitHub and create a Pull Request.
 
 - Python programming
 - Data analytics
+- Data analytics with Python collections and CSV files
 - Data science
 - Machine learning
 - Artificial intelligence
