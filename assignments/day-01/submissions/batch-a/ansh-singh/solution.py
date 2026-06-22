@@ -23,7 +23,7 @@ print("Height:", height)
 numbers = [1, 2, 3, 4, 5]
 print("Numbers:", numbers)
 
-#Create a dictionary with name, course, city, and batch.
+# 5. Create a dictionary with name, course, city, and batch.
 student = {
     "name": "Ansh Singh",
     "course": "Computer Science",
