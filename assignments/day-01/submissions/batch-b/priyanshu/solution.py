@@ -43,4 +43,5 @@ student_info={
     "city": city,
     "batch": batch
 }
+
 print(student_info)
