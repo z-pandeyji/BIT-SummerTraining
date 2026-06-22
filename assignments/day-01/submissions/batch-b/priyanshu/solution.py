@@ -1,7 +1,7 @@
 
 # 1->   This program takes user input for name, age, and college name and prints them out.  
 NAME=input("Enter your name: ")
-age=eval(input("Enter your age: "))
+age=int(input("Enter your age: "))
 college_name=input("Enter your college name: ")
 print(f"your name :{NAME}")
 print(f"your age :{age}")
@@ -9,8 +9,8 @@ print(f"your college name :{college_name}")
 
 # 2->   This program takes user input for name, age, marks, and city and prints them out.
 name=input("Enter your name: ")
-age=eval(input("Enter your age: "))
-marks=eval(input("Enter your marks: "))
+age=int(input("Enter your age: "))
+marks=int(input("Enter your marks: "))
 city=input("Enter your city: ")
 
 print(f"your name :{name}")
@@ -29,11 +29,7 @@ print(type(c))
 print(type(d))
 
 # 4->   This program creates a list of numbers based on user input and prints the list.
-n=int(input("Enter size of list: "))
-list=[]
-for i in range(n):
-    element=int(input("Enter element: "))
-    list.append(element)
+list=[2,3,6,5,8]
 print(list)
 
 # 5->   This program creates a dictionary with user input for name, course, city, and batch and prints the dictionary.
