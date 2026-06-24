@@ -43,6 +43,36 @@ assignments/
     submissions/
       batch-a/
       batch-b/
+  day-08/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-09/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-10/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-11/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-06/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
+  day-07/
+    questions.md
+    submissions/
+      batch-a/
+      batch-b/
 resources/
   setup-guide.md
   python-basics.md
@@ -108,7 +138,6 @@ Then open GitHub and create a Pull Request.
 
 - Python programming
 - Data analytics
-- Data analytics with Python collections and CSV files
 - Data science
 - Machine learning
 - Artificial intelligence
