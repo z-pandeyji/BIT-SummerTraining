@@ -1,8 +1,8 @@
 ## Basic Questions
 
 # Question 1: List Append
-students = ['Aman', 'Priya', 'Shalu', 'Rahul', 'Ansh']
-students.append('Raj')
+students = ['Aman', 'Priya', 'Shalu', 'Raj', 'Ansh',]
+students.append('Vivek')
 print(students)
 
 
