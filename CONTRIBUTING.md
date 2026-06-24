@@ -1,84 +1,123 @@
-# How to Submit Assignment
+# How to Submit an Assignment
 
-Follow these steps carefully for every assignment.
+Follow this process for every assignment. Create one branch and one Pull Request for one assignment day only.
 
-## Step 1: Clone Repository
+## 1. Clone the Repository
 
 ```bash
-git clone <repo-link>
+git clone https://github.com/z-pandeyji/BIT-SummerTraining.git
 cd BIT-SummerTraining
 ```
 
-## Step 2: Create Branch
+## 2. Start From the Latest Main Branch
 
-Use the day number and your name:
+Always start a new assignment from `main`:
 
 ```bash
-git checkout -b day-01-your-name
+git checkout main
+git pull origin main
+git checkout -b day-06-your-name
 ```
 
 Example:
 
 ```bash
-git checkout -b day-01-rahul
+git checkout -b day-06-rahul
 ```
 
-## Step 3: Add Your Solution
+Do not create a Day 6 branch from your Day 5 branch. That causes old files to appear in the new Pull Request.
 
-Create your folder inside your batch:
+## 3. Create Only Your Submission Files
+
+Choose your batch and create one folder using your own name.
 
 ```txt
-assignments/day-01/submissions/batch-a/your-name/
+assignments/day-06/submissions/batch-a/your-name/solution.py
 ```
 
 or
 
 ```txt
-assignments/day-01/submissions/batch-b/your-name/
+assignments/day-06/submissions/batch-b/your-name/solution.py
 ```
 
-Add your file:
+Example:
 
 ```txt
-solution.py
+assignments/day-06/submissions/batch-a/rahul/solution.py
 ```
 
-Final example:
+Most assignments need only `solution.py`. If an assignment specifically asks for a data file, such as Day 7, keep that file inside your own folder too:
 
 ```txt
-assignments/day-01/submissions/batch-a/rahul/solution.py
+assignments/day-07/submissions/batch-a/rahul/solution.py
+assignments/day-07/submissions/batch-a/rahul/sales_data.csv
 ```
 
-## Step 4: Commit
+## 4. Run Your Program
+
+Run the file before committing it:
 
 ```bash
-git add .
-git commit -m "Day 1 assignment by Your Name"
+python3 assignments/day-06/submissions/batch-a/your-name/solution.py
 ```
 
-## Step 5: Push
+Check that every required question runs and that printed values match the expected output in `questions.md`.
+
+## 5. Stage Only Your Files
+
+Do not use `git add .`. Stage only your own submission files.
 
 ```bash
-git push origin day-01-your-name
+git add assignments/day-06/submissions/batch-a/your-name/solution.py
+git commit -m "Add Day 6 assignment by Your Name"
+git push origin day-06-your-name
 ```
 
-## Step 6: Create Pull Request
+For Day 7, stage both files:
 
-Open GitHub and create a Pull Request from your branch to the main branch.
+```bash
+git add assignments/day-07/submissions/batch-a/your-name/solution.py
+git add assignments/day-07/submissions/batch-a/your-name/sales_data.csv
+git commit -m "Add Day 7 assignment by Your Name"
+git push origin day-07-your-name
+```
 
-## Pull Request Rules
+## 6. Create the Pull Request
 
-Before creating a Pull Request, check:
+On GitHub, create a Pull Request from your branch to `main`.
 
-- Your file is inside the correct day folder.
-- Your file is inside your correct batch folder.
-- Your folder name is your own name.
-- You did not edit another student's files.
-- Your code runs without errors.
-- Your Pull Request title includes the day number and your name.
-
-Good PR title:
+Use this title format:
 
 ```txt
-Day 1 Assignment - Rahul
+Day 6 Assignment - Rahul
 ```
+
+## Before You Create the Pull Request
+
+Run this command:
+
+```bash
+git status --short
+```
+
+The output should show only files inside your own submission folder for one assignment day.
+
+Do not include:
+
+- Another student's folder or solution file.
+- Files from an earlier or later assignment day.
+- `README.md`, `CONTRIBUTING.md`, `.gitignore`, or `questions.md`.
+- `resources/`, generated files, temporary files, or editor backup files.
+
+## If Your Pull Request Contains Wrong Files
+
+Create a clean branch instead of adding more files to the old branch:
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b day-06-your-name-clean
+```
+
+Copy only your correct `solution.py` into the required folder, commit it, push it, and create a new Pull Request.
