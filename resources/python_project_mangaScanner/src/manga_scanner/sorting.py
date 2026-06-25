@@ -12,5 +12,11 @@ def natural_sort_key(value: str) -> tuple[object, ...]:
     TODO: Split the string into text and digit chunks. Lowercase text chunks,
     convert digit chunks to integers, and return them as a tuple.
     """
-
-    raise NotImplementedError("TODO: implement natural_sort_key")
+    import re
+    parts = []
+    for chunk in re.split(r'(\d+)', value):
+        if chunk.isdigit():
+            parts.append(int(chunk))
+        else:
+            parts.append(chunk.lower())
+    return tuple(parts)

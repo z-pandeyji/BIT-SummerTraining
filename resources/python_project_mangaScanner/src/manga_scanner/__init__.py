@@ -6,13 +6,29 @@ from manga_scanner.models import MangaScan, OcrEngine, PageInput, PageScan
 from manga_scanner.scanner import scan_source
 from manga_scanner.sorting import natural_sort_key
 
-__all__ = [
-    "MangaScan",
-    "OcrEngine",
-    "PageInput",
-    "PageScan",
-    "load_pages",
-    "natural_sort_key",
-    "render_markdown",
-    "scan_source",
-]
+# Optional: Import real OCR engines if available
+try:
+    from manga_scanner.real_ocr import EasyOCREngine, TesseractOCREngine
+    __all__ = [
+        "MangaScan",
+        "OcrEngine",
+        "PageInput",
+        "PageScan",
+        "load_pages",
+        "natural_sort_key",
+        "render_markdown",
+        "scan_source",
+        "EasyOCREngine",
+        "TesseractOCREngine",
+    ]
+except ImportError:
+    __all__ = [
+        "MangaScan",
+        "OcrEngine",
+        "PageInput",
+        "PageScan",
+        "load_pages",
+        "natural_sort_key",
+        "render_markdown",
+        "scan_source",
+    ]
