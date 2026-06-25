@@ -13,4 +13,6 @@ def natural_sort_key(value: str) -> tuple[object, ...]:
     convert digit chunks to integers, and return them as a tuple.
     """
 
-    raise NotImplementedError("TODO: implement natural_sort_key")
+    import re
+    parts = re.split(r"(\d+)", value)
+    return tuple(int(p) if p.isdigit() else p.lower() for p in parts)
