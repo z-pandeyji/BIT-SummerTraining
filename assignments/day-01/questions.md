@@ -28,7 +28,6 @@ assignments/day-01/submissions/batch-b/your-name/solution.py
 ```
 
 ## Example File Name
-
 ```txt
 solution.py
 ```
