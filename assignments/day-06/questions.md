@@ -92,7 +92,6 @@ Find the product with the highest total revenue and print its name.
 # Top product: Data Analytics Course
 ```
 
-### Question 8: High-Volume Products
 
 Create a list of product names for records where `quantity` is 2 or more. Keep the same order as the original data and print the list.
 
