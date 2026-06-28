@@ -80,7 +80,7 @@ assignments/day-07/submissions/batch-a/rahul/sales_data.csv
 Run the file before committing it:
 
 ```bash
-python3 assignments/day-06/submissions/batch-a/your-name/solution.py
+
 ```
 
 Check that every required question runs and that printed values match the expected output in `questions.md`.
@@ -94,7 +94,6 @@ git add assignments/day-06/submissions/batch-a/your-name/solution.py
 git commit -m "Add Day 6 assignment by Your Name"
 git push origin day-06-your-name
 ```
-
 For Day 7, stage both files:
 
 ```bash

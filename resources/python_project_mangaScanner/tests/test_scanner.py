@@ -20,7 +20,7 @@ def make_image(path: Path, size: tuple[int, int] = (120, 180), label: str = "pag
 class FakeOcr:
     def recognize(self, page: PageInput) -> list[str]:
         if page.page_number == 1:
-            return ["  Hello hero!  ", "", "Next panel"]
+            return ["Hello hero!","Next panel"]
         return ["   "]
 
 
