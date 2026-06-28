@@ -20,7 +20,7 @@ Then read:
 - `.cbz` and `.zip` comic archives
 - PDF files rendered into page images
 - Pluggable OCR through a simple `OcrEngine` interface
-- Markdown output with source metadata, page dimensions, OCR text, and warnings
+- Markdown output with source metadata, page dimensions, OCR text, and warningspython -m pip install -e ".[dev]"
 
 ## Student Setup
 
