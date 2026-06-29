@@ -11,7 +11,12 @@ from manga_scanner.scanner import scan_source
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Scan manga/manhwa into Markdown.")
-    parser.add_argument("input", help="Image folder, CBZ/ZIP archive, or PDF file")
+    parser.add_argument(
+        "input",
+        type=Path,
+        help="Image folder, CBZ/ZIP archive, or PDF file",
+    )
+    
     parser.add_argument(
         "--output",
         "-o",
