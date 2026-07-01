@@ -1,13 +1,9 @@
 from __future__ import annotations
-
 import zipfile
 from pathlib import Path
-
 import fitz
 import pytest
 from PIL import Image, ImageDraw
-
-
 def make_image(path: Path, size: tuple[int, int] = (120, 180), label: str = "page") -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     image = Image.new("RGB", size, "white")
