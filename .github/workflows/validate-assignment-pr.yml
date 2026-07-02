@@ -38,6 +38,14 @@ jobs:
           HEAD_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
+          if ! grep -q "^assignments/" "${RUNNER_TEMP}/changed-files.txt"; then
+            if [[ "${HEAD_REPOSITORY}" == "${GITHUB_REPOSITORY}" && \
+                  "${GITHUB_ACTOR}" == "${REPOSITORY_OWNER}" ]]; then
+              echo "Owner-authored maintenance pull request; assignment validation is not required."
+              exit 0
+            fi
+          fi
+
           validator="trusted-validator/scripts/validate_assignment_pr.py"
           if [[ ! -f "${validator}" ]]; then
             if [[ "${HEAD_REPOSITORY}" == "${GITHUB_REPOSITORY}" && \

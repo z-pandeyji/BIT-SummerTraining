@@ -44,6 +44,19 @@ class AssignmentWorkflowTests(unittest.TestCase):
         self.assertIn("submission/scripts/validate_assignment_pr.py", workflow)
         self.assertIn('python3 "${validator}"', workflow)
 
+    def test_workflow_allows_owner_only_non_assignment_maintenance(self):
+        workflow = (
+            Path(__file__).parents[1]
+            / ".github"
+            / "workflows"
+            / "validate-assignment-pr.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn('grep -q "^assignments/"', workflow)
+        self.assertIn("Owner-authored maintenance pull request", workflow)
+        self.assertIn('"${HEAD_REPOSITORY}" == "${GITHUB_REPOSITORY}"', workflow)
+        self.assertIn('"${GITHUB_ACTOR}" == "${REPOSITORY_OWNER}"', workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
