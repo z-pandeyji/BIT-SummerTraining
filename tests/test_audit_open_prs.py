@@ -31,6 +31,7 @@ class AuditOpenPullRequestsTests(unittest.TestCase):
 
         self.assertEqual([{"number": 7}], response)
         self.assertEqual(2, run.call_count)
+        self.assertNotIn("--cache", run.call_args_list[0].args[0])
 
     def test_builds_a_review_row_for_a_valid_pull_request(self):
         pull_requests = [

@@ -130,7 +130,7 @@ def _gh_api(endpoint: str) -> List[dict]:
     result = None
     for _attempt in range(3):
         result = subprocess.run(
-            ["gh", "api", "--paginate", "--slurp", "--cache", "15m", endpoint],
+            ["gh", "api", "--paginate", "--slurp", endpoint],
             check=False,
             capture_output=True,
             text=True,
