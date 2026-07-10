@@ -1,0 +1,26 @@
+# documents.py - Document Collection with 20 AI/ML course notes
+
+documents = [
+    {"id": 1, "text": "Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve without being explicitly programmed.", "source": "ML Course Notes"},
+    {"id": 2, "text": "Supervised learning uses labeled training data where each input has a corresponding correct output to train the model.", "source": "ML Course Notes"},
+    {"id": 3, "text": "Unsupervised learning finds hidden patterns in data without labeled outputs, commonly used for clustering and dimensionality reduction.", "source": "ML Course Notes"},
+    {"id": 4, "text": "Reinforcement learning trains an agent to make decisions by rewarding correct actions and penalizing wrong ones.", "source": "ML Course Notes"},
+    {"id": 5, "text": "Deep learning uses neural networks with many layers to automatically learn features from raw data such as images and text.", "source": "DL Course Notes"},
+    {"id": 6, "text": "A transformer is a deep learning architecture that uses self-attention to process all tokens in parallel instead of sequentially.", "source": "NLP Course Notes"},
+    {"id": 7, "text": "Attention mechanism allows a model to focus on relevant parts of the input when generating each output token.", "source": "NLP Course Notes"},
+    {"id": 8, "text": "BERT is a pre-trained transformer model that learns bidirectional context from text using masked language modeling.", "source": "NLP Course Notes"},
+    {"id": 9, "text": "GPT is a generative pre-trained transformer that predicts the next token in a sequence using left-to-right language modeling.", "source": "NLP Course Notes"},
+    {"id": 10, "text": "Retrieval-augmented generation combines a retrieval system with a language model to ground answers in real documents.", "source": "RAG Course Notes"},
+    {"id": 11, "text": "BM25 is a keyword-based ranking function that scores documents based on term frequency and inverse document frequency.", "source": "IR Course Notes"},
+    {"id": 12, "text": "TF-IDF stands for term frequency-inverse document frequency and measures how important a word is to a document in a collection.", "source": "IR Course Notes"},
+    {"id": 13, "text": "Sentence transformers convert sentences into dense vector embeddings that capture semantic meaning for similarity search.", "source": "RAG Course Notes"},
+    {"id": 14, "text": "FAISS is a library developed by Facebook AI for efficient similarity search over large collections of dense vectors.", "source": "RAG Course Notes"},
+    {"id": 15, "text": "Overfitting occurs when a model learns training data too well and performs poorly on unseen test data.", "source": "ML Course Notes"},
+    {"id": 16, "text": "Underfitting occurs when a model is too simple to capture the patterns in the training data.", "source": "ML Course Notes"},
+    {"id": 17, "text": "Cross-validation splits data into multiple folds to evaluate model performance more reliably than a single train-test split.", "source": "ML Course Notes"},
+    {"id": 18, "text": "A confusion matrix shows the counts of true positives, true negatives, false positives, and false negatives for a classifier.", "source": "ML Course Notes"},
+    {"id": 19, "text": "Precision measures the fraction of retrieved documents that are relevant. Recall measures the fraction of relevant documents that are retrieved.", "source": "IR Course Notes"},
+    {"id": 20, "text": "Hallucination in language models refers to generating confident but factually incorrect information not grounded in the source documents.", "source": "RAG Course Notes"},
+    {"id": 21, "text": "Chunking is the process of splitting large documents into smaller pieces so they can be retrieved and cited more precisely.", "source": "RAG Course Notes"},
+    {"id": 22, "text": "Embeddings are dense vector representations of text where semantically similar texts have vectors close together in space.", "source": "NLP Course Notes"},
+]
