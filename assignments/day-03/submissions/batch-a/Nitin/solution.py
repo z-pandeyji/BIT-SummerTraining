@@ -1,41 +1,40 @@
-
-# 1. Create a list of 5 student names and print all names
-students = ["Nitin", "Rahul", "Priya", "Aman", "Sneha"]
+# Question 1
+students = ["Aman", "Priya", "Shalu", "Raj", "Ansh"]
 
 print("Student Names:")
 for student in students:
     print(student)
 
-# 2. Add one new student name to the list
-students.append("Rohit")
+# Question 2
+students.append("Nitin")
 
 print("\nUpdated Student List:")
 for student in students:
     print(student)
 
-# 3. Create a tuple of 5 city names and print the second city
-cities = ("Gorakhpur", "Lucknow", "Delhi", "Kanpur", "Varanasi")
+# Question 3
+cities = ("Gorakhpur", "Lucknow", "Deoria", "Varanasi", "Delhi")
 
-print("\nSecond City:", cities[1])
+print("\nSecond City:")
+print(cities[1])
 
-# 4. Create a set of 5 course names and add one new course
-courses = {"Python", "Java", "C++", "HTML", "CSS"}
+# Question 4
+courses = {"Python", "Java", "Data Analytics", "AI", "Machine Learning"}
 
-courses.add("JavaScript")
+courses.add("Cloud Computing")
 
 print("\nCourses:")
-for course in courses:
-    print(course)
+print(courses)
 
-# 5. Create a dictionary for one student
+# Question 5
 student = {
-    "name": "Nitin Jaiswal",
-    "branch": "Computer Science and Engineering",
-    "batch": "Batch A",
-    "marks": 87.5
+    "Name": "Nitin Jaiswal",
+    "Branch": "CSE",
+    "Batch": "2024-2028",
+    "Marks": 85
 }
 
-# 6. Print the dictionary in a readable format
+# Question 6
 print("\nStudent Details:")
 for key, value in student.items():
     print(f"{key}: {value}")
