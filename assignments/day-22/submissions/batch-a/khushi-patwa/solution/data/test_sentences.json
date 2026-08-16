@@ -1,0 +1,44 @@
+{
+  "sentences": [
+    {
+      "id": "context_1",
+      "type": "context",
+      "text": "The cat sat on the mat."
+    },
+    {
+      "id": "context_2",
+      "type": "context",
+      "text": "The scientist explained the experiment to the students."
+    },
+    {
+      "id": "context_3",
+      "type": "context",
+      "text": "The children played football in the park after school."
+    },
+    {
+      "id": "ambiguity_pronoun",
+      "type": "pronoun_reference",
+      "text": "The trophy did not fit in the suitcase because it was too large."
+    },
+    {
+      "id": "ambiguity_negation",
+      "type": "negation",
+      "text": "The movie was not interesting because the story was predictable."
+    },
+    {
+      "id": "ambiguity_distance",
+      "type": "long_distance_dependency",
+      "text": "The book that the teacher recommended to the students was fascinating."
+    },
+    {
+      "id": "word_order_1",
+      "type": "word_order_change",
+      "text": "The dog chased the boy."
+    },
+    {
+      "id": "word_order_2",
+      "type": "word_order_change",
+      "text": "The boy chased the dog."
+    }
+  ]
+}
