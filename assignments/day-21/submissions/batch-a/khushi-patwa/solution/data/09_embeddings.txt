@@ -1,0 +1,33 @@
+TITLE: Embeddings
+
+Definition
+
+Embeddings are numerical vector representations of text, words, or documents that capture their semantic meaning. Similar pieces of text are represented by vectors that are close together in the embedding space, enabling semantic search and similarity comparison.
+
+How It Works
+
+Embedding models convert text into high-dimensional vectors. These vectors preserve semantic relationships between words and sentences. Vector similarity measures such as cosine similarity or Euclidean distance are used to identify the most relevant documents.
+
+Applications
+
+Semantic search, recommendation systems, document retrieval, clustering, duplicate detection, and Retrieval-Augmented Generation.
+
+Advantages
+
+- Captures semantic meaning.
+- Enables efficient similarity search.
+- Works well for natural language retrieval.
+
+Limitations
+
+- Requires pre-trained embedding models.
+- Large vector databases consume memory.
+
+Summary
+
+Embeddings transform text into mathematical vectors, allowing AI systems to compare meaning instead of relying only on exact keyword matching.
+
+Source
+
+Sentence Transformers Documentation
+https://www.sbert.net/

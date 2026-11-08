@@ -1,0 +1,34 @@
+TITLE: Pandas
+
+Definition
+
+Pandas is an open-source Python library used for data manipulation and analysis. It provides powerful data structures such as DataFrame and Series, making it easy to clean, transform, analyze, and visualize structured data.
+
+How It Works
+
+Pandas organizes data into labeled rows and columns. It provides functions for filtering, grouping, merging, handling missing values, and reading or writing multiple file formats including CSV, Excel, SQL, and JSON.
+
+Applications
+
+Data preprocessing, machine learning pipelines, financial analysis, business intelligence, scientific research, and data visualization.
+
+Advantages
+
+- Easy data manipulation.
+- Handles missing values efficiently.
+- Supports multiple file formats.
+- Integrates well with NumPy and Scikit-learn.
+
+Limitations
+
+- Large datasets may require significant memory.
+- Not optimized for distributed computing.
+
+Summary
+
+Pandas simplifies data analysis and preprocessing, making it one of the most widely used libraries in Python data science.
+
+Source
+
+Pandas Documentation
+https://pandas.pydata.org/docs/

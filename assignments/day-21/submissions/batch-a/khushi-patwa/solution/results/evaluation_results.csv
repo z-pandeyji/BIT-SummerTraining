@@ -1,0 +1,13 @@
+Question,Expected,TFIDF_Top1,TFIDF_Top1_Hit,TFIDF_Top3_Hit,Embedding_Top1,Embedding_Top1_Hit,Embedding_Top3_Hit
+What is Artificial Intelligence?,01_artificial_intelligence.txt,01_artificial_intelligence.txt,True,True,01_artificial_intelligence.txt,True,True
+What is Machine Learning?,02_machine_learning.txt,02_machine_learning.txt,True,True,02_machine_learning.txt,True,True
+Explain Deep Learning.,03_deep_learning.txt,03_deep_learning.txt,True,True,03_deep_learning.txt,True,True
+What are Neural Networks?,04_neural_networks.txt,04_neural_networks.txt,True,True,04_neural_networks.txt,True,True
+What is a Transformer model?,05_transformers.txt,02_machine_learning.txt,False,True,05_transformers.txt,True,True
+Explain Retrieval-Augmented Generation.,08_retrieval_augmented_generation.txt,08_retrieval_augmented_generation.txt,True,True,08_retrieval_augmented_generation.txt,True,True
+What are Embeddings?,09_embeddings.txt,09_embeddings.txt,True,True,09_embeddings.txt,True,True
+What is a Vector Database?,10_vector_database.txt,10_vector_database.txt,True,True,10_vector_database.txt,True,True
+What is BM25?,12_bm25.txt,12_bm25.txt,True,True,12_bm25.txt,True,True
+Explain TF-IDF.,13_tfidf.txt,13_tfidf.txt,True,True,13_tfidf.txt,True,True
+What is FastAPI?,16_fastapi.txt,16_fastapi.txt,True,True,16_fastapi.txt,True,True
+What is Scikit-learn?,20_scikit_learn.txt,02_machine_learning.txt,False,True,20_scikit_learn.txt,True,True

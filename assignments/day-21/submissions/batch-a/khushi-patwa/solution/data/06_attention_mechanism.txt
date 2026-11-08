@@ -1,0 +1,33 @@
+TITLE: Attention Mechanism
+
+Definition
+
+The Attention Mechanism is a technique in deep learning that allows a model to focus on the most relevant parts of the input while processing information. Instead of treating every word or token equally, attention assigns different importance scores to different parts of the input. This improves the model's ability to understand context and relationships between words.
+
+How It Works
+
+During processing, attention calculates a score that represents how strongly one token is related to another token. Higher scores indicate greater importance. These scores are converted into weights, allowing the model to focus more on relevant information while ignoring less useful details. Self-attention, used in Transformers, compares every token with every other token in the sequence.
+
+Applications
+
+Attention is widely used in machine translation, text summarization, question answering, speech recognition, chatbots, document retrieval, and Large Language Models.
+
+Advantages
+
+- Captures long-range relationships.
+- Improves context understanding.
+- Enables parallel processing in Transformers.
+
+Limitations
+
+- Computationally expensive for very long sequences.
+- Memory usage increases with input length.
+
+Summary
+
+Attention allows AI models to selectively focus on important information, making language understanding more accurate and efficient.
+
+Source
+
+Hugging Face Documentation
+https://huggingface.co/docs/transformers

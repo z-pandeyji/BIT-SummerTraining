@@ -1,0 +1,34 @@
+TITLE: Vector Database
+
+Definition
+
+A Vector Database is a specialized database designed to store, index, and search vector embeddings efficiently. Instead of searching using exact keywords, vector databases perform similarity search to retrieve documents with related meanings.
+
+How It Works
+
+Documents are converted into embeddings and stored as vectors. When a user submits a query, the query is also converted into an embedding. Similarity algorithms identify the nearest vectors, returning the most semantically relevant documents.
+
+Applications
+
+Semantic search, recommendation systems, Retrieval-Augmented Generation, image search, chatbot memory, and document retrieval.
+
+Advantages
+
+- Fast similarity search.
+- Supports semantic retrieval.
+- Scales to millions of vectors.
+
+Limitations
+
+- Additional storage requirements.
+- Depends on embedding quality.
+- Requires indexing strategies for efficiency.
+
+Summary
+
+Vector databases form the backbone of modern semantic search systems by enabling efficient retrieval based on meaning rather than exact keyword matching.
+
+Source
+
+Pinecone Learning Center
+https://www.pinecone.io/learn/

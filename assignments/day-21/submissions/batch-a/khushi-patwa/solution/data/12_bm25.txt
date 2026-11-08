@@ -1,0 +1,34 @@
+TITLE: BM25
+
+Definition
+
+BM25 (Best Matching 25) is a ranking algorithm used in information retrieval to estimate how relevant a document is to a search query. It improves upon traditional TF-IDF by considering term frequency, document length, and inverse document frequency.
+
+How It Works
+
+For each query term, BM25 calculates a relevance score based on how often the term appears in the document, how common the term is across all documents, and the document length. Documents with higher BM25 scores are ranked higher.
+
+Applications
+
+Search engines, document retrieval, enterprise search, legal document search, academic search systems, and Retrieval-Augmented Generation.
+
+Advantages
+
+- Strong keyword-based retrieval.
+- Handles document length normalization.
+- Easy to implement.
+- Fast retrieval.
+
+Limitations
+
+- Does not understand semantic meaning.
+- Performance decreases when synonyms are used instead of exact keywords.
+
+Summary
+
+BM25 is one of the most effective traditional retrieval algorithms and remains widely used for keyword-based search.
+
+Source
+
+Wikipedia - Okapi BM25
+https://en.wikipedia.org/wiki/Okapi_BM25

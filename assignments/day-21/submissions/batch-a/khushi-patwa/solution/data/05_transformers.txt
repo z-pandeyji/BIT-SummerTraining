@@ -1,0 +1,34 @@
+TITLE: Transformers
+
+Definition
+
+The Transformer is a deep learning architecture introduced to efficiently process sequential data using a mechanism called self-attention. Unlike recurrent neural networks, Transformers process all tokens in parallel, making training faster and enabling better handling of long-range dependencies.
+
+How It Works
+
+Transformers use self-attention to determine how strongly each word in a sequence relates to every other word. Positional encoding provides information about word order, while multiple attention heads allow the model to capture different relationships simultaneously.
+
+Applications
+
+Transformers power Large Language Models, machine translation, summarization, question answering, chatbots, code generation, and document retrieval systems.
+
+Advantages
+
+- Parallel processing.
+- Excellent language understanding.
+- Scales effectively to very large datasets.
+
+Limitations
+
+- High memory consumption.
+- Requires significant computational resources.
+- Expensive to train.
+
+Summary
+
+The Transformer architecture revolutionized Natural Language Processing and became the foundation of modern Large Language Models such as GPT and BERT.
+
+Source
+
+Hugging Face Transformers Documentation
+https://huggingface.co/docs/transformers

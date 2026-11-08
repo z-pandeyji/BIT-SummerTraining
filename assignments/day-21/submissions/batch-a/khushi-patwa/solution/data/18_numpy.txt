@@ -1,0 +1,34 @@
+TITLE: NumPy
+
+Definition
+
+NumPy is an open-source Python library designed for numerical computing. It provides efficient multi-dimensional arrays, mathematical functions, and tools for performing high-performance numerical operations.
+
+How It Works
+
+NumPy stores data in optimized arrays that require less memory and execute mathematical operations faster than standard Python lists. It supports vectorized operations, broadcasting, and integration with many scientific computing libraries.
+
+Applications
+
+Scientific computing, machine learning, data analysis, image processing, signal processing, and numerical simulations.
+
+Advantages
+
+- Fast numerical computation.
+- Memory-efficient arrays.
+- Rich mathematical functions.
+- Excellent integration with Python ecosystem.
+
+Limitations
+
+- Primarily designed for numerical data.
+- Less suitable for heterogeneous datasets.
+
+Summary
+
+NumPy provides the computational foundation for many machine learning and scientific computing applications in Python.
+
+Source
+
+NumPy Documentation
+https://numpy.org/doc/

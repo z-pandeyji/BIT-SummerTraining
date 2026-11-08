@@ -1,0 +1,34 @@
+TITLE: Prompt Engineering
+
+Definition
+
+Prompt Engineering is the process of designing clear and effective instructions that guide Large Language Models (LLMs) to produce accurate, relevant, and useful responses. Well-designed prompts improve answer quality and reduce ambiguity.
+
+How It Works
+
+A prompt provides context, instructions, examples, and constraints to the language model. Techniques such as zero-shot, one-shot, and few-shot prompting help models perform tasks more reliably.
+
+Applications
+
+Chatbots, coding assistants, document summarization, content generation, question answering, customer support, and Retrieval-Augmented Generation.
+
+Advantages
+
+- Improves response quality.
+- Requires no model retraining.
+- Flexible and easy to experiment with.
+
+Limitations
+
+- Sensitive to wording.
+- Different prompts may produce different outputs.
+- Cannot compensate for missing knowledge.
+
+Summary
+
+Prompt Engineering helps users obtain more accurate and grounded responses by carefully structuring instructions given to language models.
+
+Source
+
+OpenAI Prompt Engineering Guide
+https://platform.openai.com/docs/guides/prompt-engineering

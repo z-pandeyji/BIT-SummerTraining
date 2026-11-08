@@ -1,0 +1,34 @@
+TITLE: Deep Learning
+
+Definition
+
+Deep Learning is a specialized area of Machine Learning that uses artificial neural networks with multiple hidden layers to learn complex patterns directly from large datasets. It is especially effective for images, speech, text, and video processing.
+
+How It Works
+
+Deep learning models consist of interconnected layers of artificial neurons. During training, the network adjusts millions of parameters using optimization algorithms such as gradient descent. As information moves through deeper layers, increasingly complex features are learned automatically.
+
+Applications
+
+Deep Learning powers facial recognition, medical imaging, autonomous driving, natural language processing, machine translation, recommendation systems, and modern generative AI.
+
+Advantages
+
+- Learns complex representations automatically.
+- High accuracy on large datasets.
+- Excellent for image and language tasks.
+
+Limitations
+
+- Requires significant computational resources.
+- Needs large training datasets.
+- Often difficult to interpret.
+
+Summary
+
+Deep Learning has become one of the most influential technologies in AI by enabling highly accurate models for vision, language, and many other domains.
+
+Source
+
+IBM - Deep Learning Overview
+https://www.ibm.com/topics/deep-learning

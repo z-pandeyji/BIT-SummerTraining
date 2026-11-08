@@ -1,0 +1,35 @@
+TITLE: Machine Learning
+
+Definition
+
+Machine Learning (ML) is a subfield of Artificial Intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task. Instead of following fixed rules, ML systems improve their performance by analyzing examples and identifying relationships within data.
+
+How It Works
+
+A machine learning model is trained using a dataset containing input features and, in many cases, the correct output labels. During training, the model learns mathematical relationships between inputs and outputs. Once trained, it can make predictions on new, unseen data. Common learning approaches include supervised learning, unsupervised learning, and reinforcement learning.
+
+Applications
+
+Machine Learning is used in spam detection, recommendation systems, medical diagnosis, image recognition, speech recognition, fraud detection, predictive maintenance, customer segmentation, and autonomous vehicles.
+
+Advantages
+
+- Learns from data automatically.
+- Handles large datasets efficiently.
+- Improves prediction accuracy over time.
+- Supports automation of complex tasks.
+
+Limitations
+
+- Requires quality training data.
+- Can overfit or underfit.
+- Model performance depends on feature engineering and parameter tuning.
+
+Summary
+
+Machine Learning allows computers to improve through experience instead of relying solely on manually written rules. It forms the foundation of many modern AI applications.
+
+Source
+
+Scikit-learn User Guide
+https://scikit-learn.org/stable/user_guide.html
