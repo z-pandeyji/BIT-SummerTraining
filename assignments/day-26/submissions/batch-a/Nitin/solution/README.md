@@ -140,45 +140,45 @@ The system follows this flow:
 
 User Question
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Safety / Privacy Guardrail
 
-&#x20;     |
+      |
 
-&#x20;     +---- Sensitive request ----> Block
+      +---- Sensitive request ----> Block
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Question Processing
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Knowledge Retrieval
 
-&#x20;     |
+      |
 
-&#x20;     +---- Match found ---------> Retrieve answer
+      +---- Match found ---------> Retrieve answer
 
-&#x20;     |
+      |
 
-&#x20;     +---- No match ------------> Uncertainty response
+      +---- No match ------------> Uncertainty response
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Confidence Estimation
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Final Answer
 

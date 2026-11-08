@@ -220,7 +220,6 @@ def run_pretrained_experiment():
                 **encoded,
                 output_attentions=True,
                 output_hidden_states=True,
-        attn_implementation="eager",
             )
 
         tokens = tokenizer.convert_ids_to_tokens(
@@ -388,7 +387,6 @@ def run_pronoun_ambiguity_test(tokenizer, model):
                 **encoded,
                 output_attentions=True,
                 output_hidden_states=True,
-        attn_implementation="eager",
             )
 
         tokens = tokenizer.convert_ids_to_tokens(

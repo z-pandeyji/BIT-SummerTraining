@@ -378,27 +378,27 @@ The intended workflow is:
 
 Pretrained model
 
-&#x20;      ↓
+       ↓
 
 Prepare labelled sentiment dataset
 
-&#x20;      ↓
+       ↓
 
 Tokenization
 
-&#x20;      ↓
+       ↓
 
 Attach LoRA adapters
 
-&#x20;      ↓
+       ↓
 
 Train adapters
 
-&#x20;      ↓
+       ↓
 
 Evaluate on held-out test data
 
-&#x20;      ↓
+       ↓
 
 Compare with prompting baseline
 
@@ -1138,19 +1138,19 @@ The evidence-based strategy is therefore:
 
 Prompt first
 
-&#x20;   ↓
+    ↓
 
 Evaluate
 
-&#x20;   ↓
+    ↓
 
 Analyze errors
 
-&#x20;   ↓
+    ↓
 
 Improve prompting/retrieval
 
-&#x20;   ↓
+    ↓
 
 Fine-tune only if evidence justifies it
 
@@ -1172,31 +1172,31 @@ The following sources informed the technical approach:
 
 1\. Hugging Face Transformers documentation
 
-&#x20;  https://huggingface.co/docs/transformers/
+   https://huggingface.co/docs/transformers/
 
 
 
 2\. Hugging Face PEFT documentation
 
-&#x20;  https://huggingface.co/docs/peft/
+   https://huggingface.co/docs/peft/
 
 
 
 3\. Hu et al., "LoRA: Low-Rank Adaptation of Large Language Models"
 
-&#x20;  https://arxiv.org/abs/2106.09685
+   https://arxiv.org/abs/2106.09685
 
 
 
 4\. Brown et al., "Language Models are Few-Shot Learners"
 
-&#x20;  https://arxiv.org/abs/2005.14165
+   https://arxiv.org/abs/2005.14165
 
 
 
 5\. Lewis et al., "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
 
-&#x20;  https://arxiv.org/abs/2005.11401
+   https://arxiv.org/abs/2005.11401
 
 
 
@@ -1228,3 +1228,8 @@ The central lesson is:
 
 
 
+
+
+## Maintainer clarification
+
+The second executable condition prepends labelled examples to an NLI classification input. It is a demonstration-augmented input experiment, not parameter adaptation or evidence that an instruction-following model performed in-context few-shot learning. Parameter-efficient fine-tuning remains a plan rather than an executed experiment.

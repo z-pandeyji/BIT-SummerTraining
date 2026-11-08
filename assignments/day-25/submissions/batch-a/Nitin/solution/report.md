@@ -64,59 +64,59 @@ The agent also contains safety and scope checks.
 
 ```text
 
-&#x20;                   User Task
+                    User Task
 
-&#x20;                      |
+                       |
 
-&#x20;                      v
+                       v
 
-&#x20;             Input / Safety Check
+              Input / Safety Check
 
-&#x20;                      |
+                       |
 
-&#x20;             +--------+--------+
+              +--------+--------+
 
-&#x20;             |                 |
+              |                 |
 
-&#x20;         Unsafe / Private   Valid Request
+          Unsafe / Private   Valid Request
 
-&#x20;             |                 |
+              |                 |
 
-&#x20;             v                 v
+              v                 v
 
-&#x20;         Block Request    Tool Selection
+          Block Request    Tool Selection
 
-&#x20;                               |
+                                |
 
-&#x20;             +-----------------+----------------+
+              +-----------------+----------------+
 
-&#x20;             |                 |                |
+              |                 |                |
 
-&#x20;             v                 v                v
+              v                 v                v
 
-&#x20;        Calculator      Unit Converter     CSV Analyzer
+         Calculator      Unit Converter     CSV Analyzer
 
-&#x20;             |                 |                |
+              |                 |                |
 
-&#x20;             +-----------------+----------------+
+              +-----------------+----------------+
 
-&#x20;                               |
+                                |
 
-&#x20;                               v
+                                v
 
-&#x20;                          Observation
+                           Observation
 
-&#x20;                               |
+                                |
 
-&#x20;                               v
+                                v
 
-&#x20;                         Final Answer
+                          Final Answer
 
-&#x20;                               |
+                                |
 
-&#x20;                               v
+                                v
 
-&#x20;                             Log
+                              Log
 
 ```
 
@@ -1062,15 +1062,15 @@ For example:
 
 Read a CSV
 
-&#x20;     ↓
+      ↓
 
 Calculate statistics
 
-&#x20;     ↓
+      ↓
 
 Convert units
 
-&#x20;     ↓
+      ↓
 
 Generate final answer
 
@@ -1282,3 +1282,8 @@ Before the agent can be trusted in real-world use, it should be tested on a much
 
 
 
+
+
+## Maintainer validation
+
+The benchmark now normalizes the expected no-tool sentinel before comparison and measures tool calls from the actual selected-tool records. Earlier figures refer to the original benchmark implementation; rerun benchmark.py to regenerate corrected metrics. Rejection checks also cover unsupported calculator syntax, division by zero, and oversized exponents.

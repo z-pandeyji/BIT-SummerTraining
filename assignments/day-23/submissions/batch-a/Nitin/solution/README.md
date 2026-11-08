@@ -558,25 +558,25 @@ The project is suitable as an educational research audit, but additional validat
 
 \* UCI Machine Learning Repository — Adult Dataset
 
-&#x20; https://archive.ics.uci.edu/dataset/2/adult
+  https://archive.ics.uci.edu/dataset/2/adult
 
 
 
 \* scikit-learn — Logistic Regression Documentation
 
-&#x20; https://scikit-learn.org/stable/modules/linear\_model.html#logistic-regression
+  https://scikit-learn.org/stable/modules/linear\_model.html#logistic-regression
 
 
 
 \* NIST — AI Risk Management Framework
 
-&#x20; https://www.nist.gov/itl/ai-risk-management-framework
+  https://www.nist.gov/itl/ai-risk-management-framework
 
 
 
 \* NIST — AI RMF Playbook
 
-&#x20; https://airc.nist.gov/airmf-resources/playbook/
+  https://airc.nist.gov/airmf-resources/playbook/
 
 
 

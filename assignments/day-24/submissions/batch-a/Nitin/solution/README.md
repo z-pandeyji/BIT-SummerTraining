@@ -490,19 +490,19 @@ The recommended strategy is therefore:
 
 Start with zero-shot prompting
 
-&#x20;       ↓
+        ↓
 
 Evaluate on a representative dataset
 
-&#x20;       ↓
+        ↓
 
 Analyze failures
 
-&#x20;       ↓
+        ↓
 
 Improve prompting/retrieval if necessary
 
-&#x20;       ↓
+        ↓
 
 Consider LoRA fine-tuning only when evidence supports it
 

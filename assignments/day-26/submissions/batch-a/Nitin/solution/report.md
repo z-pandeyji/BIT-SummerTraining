@@ -84,27 +84,27 @@ The target workflow is:
 
 Student question
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Privacy check
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Knowledge retrieval
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Confidence estimation
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Answer or uncertainty response
 
@@ -866,51 +866,51 @@ A production deployment could use the following architecture:
 
 User Interface
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 API Gateway
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Authentication
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Safety Filter
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Retrieval Service
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Vector Database
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Language Model
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 Answer Validation
 
-&#x20;     |
+      |
 
-&#x20;     v
+      v
 
 User
 
@@ -1126,7 +1126,7 @@ The following findings are directly supported by the experiment:
 
 7\. An unsupported question was refused rather than answered from fabricated
 
-&#x20;  knowledge.
+   knowledge.
 
 8\. Local response latency was extremely low.
 
@@ -1310,3 +1310,8 @@ knowledge coverage, answer verification, privacy protection, monitoring,
 
 and systematic evaluation.
 
+
+
+## Maintainer validation
+
+The original 81.82% topic accuracy above describes the submitted implementation. Maintainer review fixed substring matches (including AI inside unrelated words) and prioritized specific matched topics over broad AI/ML categories. The corrected implementation passed all 22 supplied scenarios and five targeted regression cases. This small in-sample result does not establish general accuracy; confidence remains an uncalibrated display heuristic.

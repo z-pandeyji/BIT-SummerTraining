@@ -848,25 +848,25 @@ Therefore, a model should not be considered deployment-ready simply because its 
 
 1\. UCI Machine Learning Repository — Adult Dataset
 
-&#x20;  https://archive.ics.uci.edu/dataset/2/adult
+   https://archive.ics.uci.edu/dataset/2/adult
 
 
 
 2\. scikit-learn Documentation — Logistic Regression
 
-&#x20;  https://scikit-learn.org/stable/modules/linear\_model.html#logistic-regression
+   https://scikit-learn.org/stable/modules/linear\_model.html#logistic-regression
 
 
 
 3\. NIST — Artificial Intelligence Risk Management Framework
 
-&#x20;  https://www.nist.gov/itl/ai-risk-management-framework
+   https://www.nist.gov/itl/ai-risk-management-framework
 
 
 
 4\. NIST — AI RMF Playbook
 
-&#x20;  https://airc.nist.gov/airmf-resources/playbook/
+   https://airc.nist.gov/airmf-resources/playbook/
 
 
 

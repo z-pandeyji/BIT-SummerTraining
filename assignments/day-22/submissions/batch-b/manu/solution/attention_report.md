@@ -566,7 +566,7 @@ The experiment included:
 
 
 
-&#x20;  > The cat sat on the mat.
+   > The cat sat on the mat.
 
 
 
@@ -574,11 +574,11 @@ The experiment included:
 
 
 
-&#x20;  > The dog chased the ball because it was excited.
+   > The dog chased the ball because it was excited.
 
 
 
-&#x20;  > The dog chased the ball because it was tired.
+   > The dog chased the ball because it was tired.
 
 
 
@@ -586,7 +586,7 @@ The experiment included:
 
 
 
-&#x20;  > The teacher gave the student a book.
+   > The teacher gave the student a book.
 
 
 
@@ -594,7 +594,7 @@ The experiment included:
 
 
 
-&#x20;  > The scientist studied the virus in the laboratory.
+   > The scientist studied the virus in the laboratory.
 
 
 
@@ -602,11 +602,11 @@ The experiment included:
 
 
 
-&#x20;  > The keys to the cabinet are on the table.
+   > The keys to the cabinet are on the table.
 
 
 
-&#x20;  > The keys to the cabinet is on the table.
+   > The keys to the cabinet is on the table.
 
 
 
@@ -614,11 +614,11 @@ The experiment included:
 
 
 
-&#x20;  > The movie was not good.
+   > The movie was not good.
 
 
 
-&#x20;  > The movie was good.
+   > The movie was good.
 
 
 
@@ -626,7 +626,7 @@ The experiment included:
 
 
 
-&#x20;  > The boy who the girl saw was smiling.
+   > The boy who the girl saw was smiling.
 
 
 
@@ -1476,41 +1476,41 @@ The answer to the research question is therefore:
 
 1\. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., and Polosukhin, I. (2017).
 
-&#x20;  \*\*Attention Is All You Need.\*\*
+   \*\*Attention Is All You Need.\*\*
 
-&#x20;  arXiv:1706.03762.
+   arXiv:1706.03762.
 
 
 
 2\. Google Research.
 
-&#x20;  \*\*Attention Is All You Need.\*\*
+   \*\*Attention Is All You Need.\*\*
 
-&#x20;  Transformer architecture and self-attention research.
+   Transformer architecture and self-attention research.
 
 
 
 3\. Hugging Face.
 
-&#x20;  \*\*Transformers Documentation.\*\*
+   \*\*Transformers Documentation.\*\*
 
-&#x20;  Documentation for pretrained Transformer models, tokenizers, hidden states, and attention outputs.
+   Documentation for pretrained Transformer models, tokenizers, hidden states, and attention outputs.
 
 
 
 4\. Jain, S. and Wallace, B. C. (2019).
 
-&#x20;  \*\*Attention is not Explanation.\*\*
+   \*\*Attention is not Explanation.\*\*
 
-&#x20;  arXiv:1902.10186.
+   arXiv:1902.10186.
 
 
 
 5\. Clark, K., Khandelwal, U., Levy, O., and Manning, C. D. (2019).
 
-&#x20;  \*\*What Does BERT Look At? An Analysis of BERT's Attention.\*\*
+   \*\*What Does BERT Look At? An Analysis of BERT's Attention.\*\*
 
-&#x20;  Proceedings of the Third BlackboxNLP Workshop.
+   Proceedings of the Third BlackboxNLP Workshop.
 
 
 
