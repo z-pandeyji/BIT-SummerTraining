@@ -1,0 +1,4 @@
+approach,accuracy,average_latency_seconds,cost,privacy,maintainability,reproducibility
+Zero-shot prompting,1.0,0.2585,Low,Medium,High,High
+Few-shot prompting,0.4314,0.8414,Low-Medium,Medium,Medium-High,High
+Parameter-efficient fine-tuning,Planned,Planned,Medium,High if locally trained,Medium,Medium-High

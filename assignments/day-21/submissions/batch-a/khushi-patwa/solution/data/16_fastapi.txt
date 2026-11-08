@@ -1,0 +1,34 @@
+TITLE: FastAPI
+
+Definition
+
+FastAPI is a modern, high-performance Python web framework used for building APIs quickly and efficiently. It is built on Starlette for web handling and Pydantic for data validation. FastAPI supports asynchronous programming, automatic API documentation, and type hints, making it popular for developing machine learning and AI applications.
+
+How It Works
+
+FastAPI uses Python type annotations to validate request data automatically. Developers define API endpoints using decorators, and FastAPI generates interactive API documentation through Swagger UI and ReDoc. It also supports dependency injection, background tasks, and asynchronous request handling.
+
+Applications
+
+FastAPI is widely used for machine learning model deployment, REST API development, microservices, backend systems, data science applications, and cloud-based AI services.
+
+Advantages
+
+- High performance.
+- Automatic API documentation.
+- Built-in data validation.
+- Easy integration with Python ML libraries.
+
+Limitations
+
+- Smaller ecosystem than older frameworks.
+- Advanced asynchronous programming may be difficult for beginners.
+
+Summary
+
+FastAPI enables developers to build fast, reliable, and well-documented APIs with minimal code, making it a popular choice for AI and machine learning applications.
+
+Source
+
+FastAPI Documentation
+https://fastapi.tiangolo.com/

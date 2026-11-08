@@ -1,0 +1,34 @@
+TITLE: Neural Networks
+
+Definition
+
+Artificial Neural Networks are computational models inspired by the structure of the human brain. They consist of interconnected processing units called neurons that work together to recognize patterns and solve complex learning problems.
+
+How It Works
+
+Each neuron receives inputs, applies weights, adds a bias, and passes the result through an activation function. Multiple layers allow the network to learn increasingly complex representations from data. During training, weights are updated using backpropagation.
+
+Applications
+
+Neural Networks are widely used in image classification, speech recognition, handwriting recognition, recommendation systems, robotics, and language models.
+
+Advantages
+
+- Learns nonlinear relationships.
+- Highly flexible.
+- Strong performance on complex tasks.
+
+Limitations
+
+- Computationally expensive.
+- Difficult to explain.
+- Requires careful tuning.
+
+Summary
+
+Neural Networks are the core building blocks of Deep Learning and enable modern AI systems to solve complex real-world problems.
+
+Source
+
+IBM - Neural Networks
+https://www.ibm.com/topics/neural-networks

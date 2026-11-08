@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "question": "What is Artificial Intelligence?",
+        "expected_document": "01_artificial_intelligence.txt"
+    },
+    {
+        "id": 2,
+        "question": "What is Machine Learning?",
+        "expected_document": "02_machine_learning.txt"
+    },
+    {
+        "id": 3,
+        "question": "Explain Deep Learning.",
+        "expected_document": "03_deep_learning.txt"
+    },
+    {
+        "id": 4,
+        "question": "What are Neural Networks?",
+        "expected_document": "04_neural_networks.txt"
+    },
+    {
+        "id": 5,
+        "question": "What is a Transformer model?",
+        "expected_document": "05_transformers.txt"
+    },
+    {
+        "id": 6,
+        "question": "Explain Retrieval-Augmented Generation.",
+        "expected_document": "08_retrieval_augmented_generation.txt"
+    },
+    {
+        "id": 7,
+        "question": "What are Embeddings?",
+        "expected_document": "09_embeddings.txt"
+    },
+    {
+        "id": 8,
+        "question": "What is a Vector Database?",
+        "expected_document": "10_vector_database.txt"
+    },
+    {
+        "id": 9,
+        "question": "What is BM25?",
+        "expected_document": "12_bm25.txt"
+    },
+    {
+        "id": 10,
+        "question": "Explain TF-IDF.",
+        "expected_document": "13_tfidf.txt"
+    },
+    {
+        "id": 11,
+        "question": "What is FastAPI?",
+        "expected_document": "16_fastapi.txt"
+    },
+    {
+        "id": 12,
+        "question": "What is Scikit-learn?",
+        "expected_document": "20_scikit_learn.txt"
+    }
+]

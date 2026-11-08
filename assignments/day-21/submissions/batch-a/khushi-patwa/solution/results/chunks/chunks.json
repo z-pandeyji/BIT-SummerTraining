@@ -1,0 +1,212 @@
+[
+    {
+        "chunk_id": 1,
+        "document": "01_artificial_intelligence.txt",
+        "text": "TITLE: Artificial Intelligence (AI) Definition Artificial Intelligence (AI) is a branch of computer science that focuses on building systems capable of performing tasks that normally require human intelligence. These tasks include learning from data, recognizing patterns, understanding language, solving problems, making decisions, and interacting with users. AI combines algorithms, data, and computing power to create systems that can improve their performance over time. How It Works AI systems learn by analyzing data and identifying relationships within that data. Traditional AI systems use predefined rules, while modern AI relies heavily on Machine Learning and Deep Learning models. These models are trained using large datasets, allowing them to recognize patterns and make predictions. The quality of the data, learning algorithm, and computational"
+    },
+    {
+        "chunk_id": 2,
+        "document": "01_artificial_intelligence.txt",
+        "text": "using large datasets, allowing them to recognize patterns and make predictions. The quality of the data, learning algorithm, and computational resources all affect the performance of an AI system. Applications Artificial Intelligence is widely used across many industries. Healthcare uses AI for disease prediction and medical image analysis. Finance uses AI for fraud detection and risk assessment. E-commerce platforms recommend products using AI-based recommendation systems. AI is also used in self-driving vehicles, chatbots, virtual assistants, cybersecurity, manufacturing, education, and scientific research. Advantages - Automates repetitive tasks. - Processes large volumes of data quickly. - Improves decision-making using data-driven insights. - Operates continuously without fatigue. - Supports innovation across multiple industries. Limitations - Requires high-quality data for accurate predictions. - Can"
+    },
+    {
+        "chunk_id": 3,
+        "document": "01_artificial_intelligence.txt",
+        "text": "Operates continuously without fatigue. - Supports innovation across multiple industries. Limitations - Requires high-quality data for accurate predictions. - Can inherit bias present in training data. - High computational and infrastructure costs. - Ethical and privacy concerns. - Cannot fully replace human judgment in many critical situations. Summary Artificial Intelligence enables machines to perform intelligent tasks by learning from data and identifying patterns. It has transformed industries through automation, prediction, and intelligent decision-making. However, responsible AI development requires careful attention to fairness, privacy, transparency, and data quality. Source IBM - Artificial Intelligence Overview https://www.ibm.com/topics/artificial-intelligence"
+    },
+    {
+        "chunk_id": 4,
+        "document": "02_machine_learning.txt",
+        "text": "TITLE: Machine Learning Definition Machine Learning (ML) is a subfield of Artificial Intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task. Instead of following fixed rules, ML systems improve their performance by analyzing examples and identifying relationships within data. How It Works A machine learning model is trained using a dataset containing input features and, in many cases, the correct output labels. During training, the model learns mathematical relationships between inputs and outputs. Once trained, it can make predictions on new, unseen data. Common learning approaches include supervised learning, unsupervised learning, and reinforcement learning. Applications Machine Learning is used in spam detection, recommendation systems, medical diagnosis, image recognition,"
+    },
+    {
+        "chunk_id": 5,
+        "document": "02_machine_learning.txt",
+        "text": "learning, unsupervised learning, and reinforcement learning. Applications Machine Learning is used in spam detection, recommendation systems, medical diagnosis, image recognition, speech recognition, fraud detection, predictive maintenance, customer segmentation, and autonomous vehicles. Advantages - Learns from data automatically. - Handles large datasets efficiently. - Improves prediction accuracy over time. - Supports automation of complex tasks. Limitations - Requires quality training data. - Can overfit or underfit. - Model performance depends on feature engineering and parameter tuning. Summary Machine Learning allows computers to improve through experience instead of relying solely on manually written rules. It forms the foundation of many modern AI applications. Source Scikit-learn User Guide https://scikit-learn.org/stable/user_guide.html"
+    },
+    {
+        "chunk_id": 6,
+        "document": "02_machine_learning.txt",
+        "text": "applications. Source Scikit-learn User Guide https://scikit-learn.org/stable/user_guide.html"
+    },
+    {
+        "chunk_id": 7,
+        "document": "03_deep_learning.txt",
+        "text": "TITLE: Deep Learning Definition Deep Learning is a specialized area of Machine Learning that uses artificial neural networks with multiple hidden layers to learn complex patterns directly from large datasets. It is especially effective for images, speech, text, and video processing. How It Works Deep learning models consist of interconnected layers of artificial neurons. During training, the network adjusts millions of parameters using optimization algorithms such as gradient descent. As information moves through deeper layers, increasingly complex features are learned automatically. Applications Deep Learning powers facial recognition, medical imaging, autonomous driving, natural language processing, machine translation, recommendation systems, and modern generative AI. Advantages - Learns complex representations automatically. - High accuracy on large datasets. - Excellent for image and language"
+    },
+    {
+        "chunk_id": 8,
+        "document": "03_deep_learning.txt",
+        "text": "generative AI. Advantages - Learns complex representations automatically. - High accuracy on large datasets. - Excellent for image and language tasks. Limitations - Requires significant computational resources. - Needs large training datasets. - Often difficult to interpret. Summary Deep Learning has become one of the most influential technologies in AI by enabling highly accurate models for vision, language, and many other domains. Source IBM - Deep Learning Overview https://www.ibm.com/topics/deep-learning"
+    },
+    {
+        "chunk_id": 9,
+        "document": "04_neural_networks.txt",
+        "text": "TITLE: Neural Networks Definition Artificial Neural Networks are computational models inspired by the structure of the human brain. They consist of interconnected processing units called neurons that work together to recognize patterns and solve complex learning problems. How It Works Each neuron receives inputs, applies weights, adds a bias, and passes the result through an activation function. Multiple layers allow the network to learn increasingly complex representations from data. During training, weights are updated using backpropagation. Applications Neural Networks are widely used in image classification, speech recognition, handwriting recognition, recommendation systems, robotics, and language models. Advantages - Learns nonlinear relationships. - Highly flexible. - Strong performance on complex tasks. Limitations - Computationally expensive. - Difficult to explain. - Requires careful"
+    },
+    {
+        "chunk_id": 10,
+        "document": "04_neural_networks.txt",
+        "text": "- Highly flexible. - Strong performance on complex tasks. Limitations - Computationally expensive. - Difficult to explain. - Requires careful tuning. Summary Neural Networks are the core building blocks of Deep Learning and enable modern AI systems to solve complex real-world problems. Source IBM - Neural Networks https://www.ibm.com/topics/neural-networks"
+    },
+    {
+        "chunk_id": 11,
+        "document": "05_transformers.txt",
+        "text": "TITLE: Transformers Definition The Transformer is a deep learning architecture introduced to efficiently process sequential data using a mechanism called self-attention. Unlike recurrent neural networks, Transformers process all tokens in parallel, making training faster and enabling better handling of long-range dependencies. How It Works Transformers use self-attention to determine how strongly each word in a sequence relates to every other word. Positional encoding provides information about word order, while multiple attention heads allow the model to capture different relationships simultaneously. Applications Transformers power Large Language Models, machine translation, summarization, question answering, chatbots, code generation, and document retrieval systems. Advantages - Parallel processing. - Excellent language understanding. - Scales effectively to very large datasets. Limitations - High memory consumption. - Requires"
+    },
+    {
+        "chunk_id": 12,
+        "document": "05_transformers.txt",
+        "text": "Parallel processing. - Excellent language understanding. - Scales effectively to very large datasets. Limitations - High memory consumption. - Requires significant computational resources. - Expensive to train. Summary The Transformer architecture revolutionized Natural Language Processing and became the foundation of modern Large Language Models such as GPT and BERT. Source Hugging Face Transformers Documentation https://huggingface.co/docs/transformers"
+    },
+    {
+        "chunk_id": 13,
+        "document": "06_attention_mechanism.txt",
+        "text": "TITLE: Attention Mechanism Definition The Attention Mechanism is a technique in deep learning that allows a model to focus on the most relevant parts of the input while processing information. Instead of treating every word or token equally, attention assigns different importance scores to different parts of the input. This improves the model's ability to understand context and relationships between words. How It Works During processing, attention calculates a score that represents how strongly one token is related to another token. Higher scores indicate greater importance. These scores are converted into weights, allowing the model to focus more on relevant information while ignoring less useful details. Self-attention, used in Transformers, compares every token with every other token in the sequence."
+    },
+    {
+        "chunk_id": 14,
+        "document": "06_attention_mechanism.txt",
+        "text": "information while ignoring less useful details. Self-attention, used in Transformers, compares every token with every other token in the sequence. Applications Attention is widely used in machine translation, text summarization, question answering, speech recognition, chatbots, document retrieval, and Large Language Models. Advantages - Captures long-range relationships. - Improves context understanding. - Enables parallel processing in Transformers. Limitations - Computationally expensive for very long sequences. - Memory usage increases with input length. Summary Attention allows AI models to selectively focus on important information, making language understanding more accurate and efficient. Source Hugging Face Documentation https://huggingface.co/docs/transformers"
+    },
+    {
+        "chunk_id": 15,
+        "document": "07_large_language_models.txt",
+        "text": "TITLE: Large Language Models Definition Large Language Models (LLMs) are advanced AI models trained on massive collections of text to understand and generate human language. They predict the next token in a sequence based on previous tokens, allowing them to answer questions, write content, summarize information, and perform many language-related tasks. How It Works LLMs are built using the Transformer architecture. During training, they learn statistical patterns from billions of words. After training, they can generate text, answer questions, translate languages, and assist users by predicting likely responses based on context. Applications Chatbots, virtual assistants, code generation, document summarization, translation, education, customer support, healthcare assistance, and content generation. Advantages - Strong language understanding. - Supports multiple NLP tasks. - Can"
+    },
+    {
+        "chunk_id": 16,
+        "document": "07_large_language_models.txt",
+        "text": "education, customer support, healthcare assistance, and content generation. Advantages - Strong language understanding. - Supports multiple NLP tasks. - Can generalize across many domains. Limitations - May generate incorrect information. - Requires large computational resources. - Can reflect biases present in training data. Summary Large Language Models have transformed Natural Language Processing by providing powerful language understanding and generation capabilities. Source Hugging Face Documentation https://huggingface.co/docs/transformers"
+    },
+    {
+        "chunk_id": 17,
+        "document": "08_retrieval_augmented_generation.txt",
+        "text": "TITLE: Retrieval-Augmented Generation (RAG) Definition Retrieval-Augmented Generation (RAG) is an AI framework that combines information retrieval with text generation. Instead of relying only on information stored in a language model, a RAG system first searches a knowledge base for relevant documents and then uses those documents to generate grounded answers. How It Works A user submits a query. The retriever searches the document collection using methods such as TF-IDF, BM25, or vector search. The most relevant document chunks are returned to the language model, which generates an answer based on the retrieved information while citing the supporting documents. Applications Enterprise search, question answering, customer support, document assistants, educational chatbots, legal research, healthcare knowledge systems, and technical documentation search. Advantages -"
+    },
+    {
+        "chunk_id": 18,
+        "document": "08_retrieval_augmented_generation.txt",
+        "text": "search, question answering, customer support, document assistants, educational chatbots, legal research, healthcare knowledge systems, and technical documentation search. Advantages - Produces grounded answers. - Reduces hallucination. - Uses external knowledge without retraining the language model. Limitations - Retrieval quality directly affects answer quality. - Missing documents can lead to incomplete answers. - Requires efficient indexing and chunking. Summary RAG improves the reliability of AI systems by combining document retrieval with language generation, ensuring answers are supported by retrieved evidence. Source Hugging Face RAG Documentation https://huggingface.co/docs"
+    },
+    {
+        "chunk_id": 19,
+        "document": "09_embeddings.txt",
+        "text": "TITLE: Embeddings Definition Embeddings are numerical vector representations of text, words, or documents that capture their semantic meaning. Similar pieces of text are represented by vectors that are close together in the embedding space, enabling semantic search and similarity comparison. How It Works Embedding models convert text into high-dimensional vectors. These vectors preserve semantic relationships between words and sentences. Vector similarity measures such as cosine similarity or Euclidean distance are used to identify the most relevant documents. Applications Semantic search, recommendation systems, document retrieval, clustering, duplicate detection, and Retrieval-Augmented Generation. Advantages - Captures semantic meaning. - Enables efficient similarity search. - Works well for natural language retrieval. Limitations - Requires pre-trained embedding models. - Large vector databases consume memory. Summary"
+    },
+    {
+        "chunk_id": 20,
+        "document": "09_embeddings.txt",
+        "text": "- Works well for natural language retrieval. Limitations - Requires pre-trained embedding models. - Large vector databases consume memory. Summary Embeddings transform text into mathematical vectors, allowing AI systems to compare meaning instead of relying only on exact keyword matching. Source Sentence Transformers Documentation https://www.sbert.net/"
+    },
+    {
+        "chunk_id": 21,
+        "document": "10_vector_database.txt",
+        "text": "TITLE: Vector Database Definition A Vector Database is a specialized database designed to store, index, and search vector embeddings efficiently. Instead of searching using exact keywords, vector databases perform similarity search to retrieve documents with related meanings. How It Works Documents are converted into embeddings and stored as vectors. When a user submits a query, the query is also converted into an embedding. Similarity algorithms identify the nearest vectors, returning the most semantically relevant documents. Applications Semantic search, recommendation systems, Retrieval-Augmented Generation, image search, chatbot memory, and document retrieval. Advantages - Fast similarity search. - Supports semantic retrieval. - Scales to millions of vectors. Limitations - Additional storage requirements. - Depends on embedding quality. - Requires indexing strategies for efficiency."
+    },
+    {
+        "chunk_id": 22,
+        "document": "10_vector_database.txt",
+        "text": "to millions of vectors. Limitations - Additional storage requirements. - Depends on embedding quality. - Requires indexing strategies for efficiency. Summary Vector databases form the backbone of modern semantic search systems by enabling efficient retrieval based on meaning rather than exact keyword matching. Source Pinecone Learning Center https://www.pinecone.io/learn/"
+    },
+    {
+        "chunk_id": 23,
+        "document": "11_faiss.txt",
+        "text": "TITLE: FAISS Definition FAISS (Facebook AI Similarity Search) is an open-source library developed by Meta AI for efficient similarity search and clustering of dense vectors. It is widely used in Retrieval-Augmented Generation (RAG) systems to quickly retrieve the most relevant documents from large collections based on vector similarity. How It Works FAISS stores vector embeddings in specialized indexes. When a query is converted into an embedding, FAISS compares it against stored vectors using similarity metrics such as Euclidean distance or Inner Product. It returns the nearest vectors, enabling fast semantic search even in very large datasets. Applications FAISS is used in semantic search, Retrieval-Augmented Generation (RAG), recommendation systems, image retrieval, duplicate detection, and document search systems. Advantages - Extremely fast"
+    },
+    {
+        "chunk_id": 24,
+        "document": "11_faiss.txt",
+        "text": "in semantic search, Retrieval-Augmented Generation (RAG), recommendation systems, image retrieval, duplicate detection, and document search systems. Advantages - Extremely fast similarity search. - Supports millions of vectors efficiently. - Multiple indexing methods for speed and scalability. - Open-source and widely adopted. Limitations - Stores vectors only; metadata must usually be managed separately. - Performance depends on embedding quality. - Approximate indexes may slightly reduce accuracy. Summary FAISS is a high-performance vector search library that enables efficient semantic retrieval and serves as a core component of many modern RAG systems. Source FAISS Documentation https://faiss.ai/"
+    },
+    {
+        "chunk_id": 25,
+        "document": "12_bm25.txt",
+        "text": "TITLE: BM25 Definition BM25 (Best Matching 25) is a ranking algorithm used in information retrieval to estimate how relevant a document is to a search query. It improves upon traditional TF-IDF by considering term frequency, document length, and inverse document frequency. How It Works For each query term, BM25 calculates a relevance score based on how often the term appears in the document, how common the term is across all documents, and the document length. Documents with higher BM25 scores are ranked higher. Applications Search engines, document retrieval, enterprise search, legal document search, academic search systems, and Retrieval-Augmented Generation. Advantages - Strong keyword-based retrieval. - Handles document length normalization. - Easy to implement. - Fast retrieval. Limitations - Does not"
+    },
+    {
+        "chunk_id": 26,
+        "document": "12_bm25.txt",
+        "text": "- Strong keyword-based retrieval. - Handles document length normalization. - Easy to implement. - Fast retrieval. Limitations - Does not understand semantic meaning. - Performance decreases when synonyms are used instead of exact keywords. Summary BM25 is one of the most effective traditional retrieval algorithms and remains widely used for keyword-based search. Source Wikipedia - Okapi BM25 https://en.wikipedia.org/wiki/Okapi_BM25"
+    },
+    {
+        "chunk_id": 27,
+        "document": "13_tfidf.txt",
+        "text": "TITLE: TF-IDF Definition TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical technique used to measure the importance of a word within a document relative to a collection of documents. It is commonly used in document retrieval and text mining. How It Works TF measures how frequently a word appears in a document, while IDF reduces the importance of words that appear in many documents. Multiplying these values produces a score that highlights informative words. Applications Search engines, document ranking, text classification, document clustering, recommendation systems, and Retrieval-Augmented Generation. Advantages - Simple and efficient. - Fast computation. - Effective for keyword matching. Limitations - Cannot understand semantic relationships. - Sensitive to vocabulary differences. - Performs poorly with synonyms. Summary TF-IDF provides"
+    },
+    {
+        "chunk_id": 28,
+        "document": "13_tfidf.txt",
+        "text": "matching. Limitations - Cannot understand semantic relationships. - Sensitive to vocabulary differences. - Performs poorly with synonyms. Summary TF-IDF provides a simple yet powerful way to rank documents using keyword importance and serves as a strong baseline retrieval method. Source Scikit-learn Documentation https://scikit-learn.org/stable/modules/feature_extraction.html"
+    },
+    {
+        "chunk_id": 29,
+        "document": "14_prompt_engineering.txt",
+        "text": "TITLE: Prompt Engineering Definition Prompt Engineering is the process of designing clear and effective instructions that guide Large Language Models (LLMs) to produce accurate, relevant, and useful responses. Well-designed prompts improve answer quality and reduce ambiguity. How It Works A prompt provides context, instructions, examples, and constraints to the language model. Techniques such as zero-shot, one-shot, and few-shot prompting help models perform tasks more reliably. Applications Chatbots, coding assistants, document summarization, content generation, question answering, customer support, and Retrieval-Augmented Generation. Advantages - Improves response quality. - Requires no model retraining. - Flexible and easy to experiment with. Limitations - Sensitive to wording. - Different prompts may produce different outputs. - Cannot compensate for missing knowledge. Summary Prompt Engineering helps users"
+    },
+    {
+        "chunk_id": 30,
+        "document": "14_prompt_engineering.txt",
+        "text": "to wording. - Different prompts may produce different outputs. - Cannot compensate for missing knowledge. Summary Prompt Engineering helps users obtain more accurate and grounded responses by carefully structuring instructions given to language models. Source OpenAI Prompt Engineering Guide https://platform.openai.com/docs/guides/prompt-engineering"
+    },
+    {
+        "chunk_id": 31,
+        "document": "15_tokenization.txt",
+        "text": "TITLE: Tokenization Definition Tokenization is the process of breaking text into smaller units called tokens. Depending on the tokenizer, a token may represent a word, subword, character, or punctuation symbol. Tokenization is one of the first preprocessing steps in Natural Language Processing. How It Works The tokenizer reads input text and splits it into tokens according to predefined rules or learned algorithms. Modern Transformer models often use subword tokenization methods such as Byte Pair Encoding (BPE) or WordPiece to efficiently represent vocabulary. Applications Natural Language Processing, Machine Translation, Text Classification, Sentiment Analysis, Chatbots, Large Language Models, and Retrieval-Augmented Generation. Advantages - Converts text into machine-readable units. - Supports efficient language modeling. - Reduces vocabulary size using subword methods. Limitations -"
+    },
+    {
+        "chunk_id": 32,
+        "document": "15_tokenization.txt",
+        "text": "- Converts text into machine-readable units. - Supports efficient language modeling. - Reduces vocabulary size using subword methods. Limitations - Different tokenizers produce different token sequences. - Poor tokenization can reduce model performance. Summary Tokenization converts human language into structured units that AI models can process, making it an essential step in modern NLP pipelines. Source Hugging Face Tokenizers Documentation https://huggingface.co/docs/tokenizers"
+    },
+    {
+        "chunk_id": 33,
+        "document": "16_fastapi.txt",
+        "text": "TITLE: FastAPI Definition FastAPI is a modern, high-performance Python web framework used for building APIs quickly and efficiently. It is built on Starlette for web handling and Pydantic for data validation. FastAPI supports asynchronous programming, automatic API documentation, and type hints, making it popular for developing machine learning and AI applications. How It Works FastAPI uses Python type annotations to validate request data automatically. Developers define API endpoints using decorators, and FastAPI generates interactive API documentation through Swagger UI and ReDoc. It also supports dependency injection, background tasks, and asynchronous request handling. Applications FastAPI is widely used for machine learning model deployment, REST API development, microservices, backend systems, data science applications, and cloud-based AI services. Advantages - High performance. -"
+    },
+    {
+        "chunk_id": 34,
+        "document": "16_fastapi.txt",
+        "text": "model deployment, REST API development, microservices, backend systems, data science applications, and cloud-based AI services. Advantages - High performance. - Automatic API documentation. - Built-in data validation. - Easy integration with Python ML libraries. Limitations - Smaller ecosystem than older frameworks. - Advanced asynchronous programming may be difficult for beginners. Summary FastAPI enables developers to build fast, reliable, and well-documented APIs with minimal code, making it a popular choice for AI and machine learning applications. Source FastAPI Documentation https://fastapi.tiangolo.com/"
+    },
+    {
+        "chunk_id": 35,
+        "document": "17_rest_api.txt",
+        "text": "TITLE: REST API Definition A REST API (Representational State Transfer Application Programming Interface) is a web service architecture that enables communication between different software applications using standard HTTP methods. REST APIs exchange data in formats such as JSON, making them lightweight and platform-independent. How It Works Clients send HTTP requests such as GET, POST, PUT, and DELETE to a server. The server processes the request and returns an appropriate response. REST APIs are stateless, meaning each request contains all the information needed for processing. Applications REST APIs are used in web applications, mobile applications, cloud services, AI platforms, e-commerce systems, and third-party integrations. Advantages - Simple and scalable. - Platform independent. - Uses standard HTTP methods. - Easy integration with"
+    },
+    {
+        "chunk_id": 36,
+        "document": "17_rest_api.txt",
+        "text": "and third-party integrations. Advantages - Simple and scalable. - Platform independent. - Uses standard HTTP methods. - Easy integration with frontend applications. Limitations - Stateless communication may require additional authentication mechanisms. - Multiple requests may be required for complex operations. Summary REST APIs provide a standardized and efficient method for communication between software systems and are widely used in modern application development. Source MDN Web Docs https://developer.mozilla.org/"
+    },
+    {
+        "chunk_id": 37,
+        "document": "18_numpy.txt",
+        "text": "TITLE: NumPy Definition NumPy is an open-source Python library designed for numerical computing. It provides efficient multi-dimensional arrays, mathematical functions, and tools for performing high-performance numerical operations. How It Works NumPy stores data in optimized arrays that require less memory and execute mathematical operations faster than standard Python lists. It supports vectorized operations, broadcasting, and integration with many scientific computing libraries. Applications Scientific computing, machine learning, data analysis, image processing, signal processing, and numerical simulations. Advantages - Fast numerical computation. - Memory-efficient arrays. - Rich mathematical functions. - Excellent integration with Python ecosystem. Limitations - Primarily designed for numerical data. - Less suitable for heterogeneous datasets. Summary NumPy provides the computational foundation for many machine learning and scientific computing applications"
+    },
+    {
+        "chunk_id": 38,
+        "document": "18_numpy.txt",
+        "text": "- Less suitable for heterogeneous datasets. Summary NumPy provides the computational foundation for many machine learning and scientific computing applications in Python. Source NumPy Documentation https://numpy.org/doc/"
+    },
+    {
+        "chunk_id": 39,
+        "document": "19_pandas.txt",
+        "text": "TITLE: Pandas Definition Pandas is an open-source Python library used for data manipulation and analysis. It provides powerful data structures such as DataFrame and Series, making it easy to clean, transform, analyze, and visualize structured data. How It Works Pandas organizes data into labeled rows and columns. It provides functions for filtering, grouping, merging, handling missing values, and reading or writing multiple file formats including CSV, Excel, SQL, and JSON. Applications Data preprocessing, machine learning pipelines, financial analysis, business intelligence, scientific research, and data visualization. Advantages - Easy data manipulation. - Handles missing values efficiently. - Supports multiple file formats. - Integrates well with NumPy and Scikit-learn. Limitations - Large datasets may require significant memory. - Not optimized for distributed"
+    },
+    {
+        "chunk_id": 40,
+        "document": "19_pandas.txt",
+        "text": "- Integrates well with NumPy and Scikit-learn. Limitations - Large datasets may require significant memory. - Not optimized for distributed computing. Summary Pandas simplifies data analysis and preprocessing, making it one of the most widely used libraries in Python data science. Source Pandas Documentation https://pandas.pydata.org/docs/"
+    },
+    {
+        "chunk_id": 41,
+        "document": "20_scikit_learn.txt",
+        "text": "TITLE: Scikit-learn Definition Scikit-learn is a popular open-source Python library that provides machine learning algorithms for classification, regression, clustering, dimensionality reduction, preprocessing, and model evaluation. How It Works Scikit-learn offers a consistent API for building machine learning workflows. Users prepare data, split datasets, train models, evaluate performance, and make predictions using built-in algorithms and utilities. Applications Classification, regression, clustering, recommendation systems, anomaly detection, natural language processing, and predictive analytics. Advantages - Easy-to-use API. - Large collection of machine learning algorithms. - Strong documentation. - Excellent integration with NumPy and Pandas. Limitations - Not intended for deep learning. - Limited GPU support. Summary Scikit-learn provides reliable and efficient machine learning tools for data analysis and predictive modeling, making it one of"
+    },
+    {
+        "chunk_id": 42,
+        "document": "20_scikit_learn.txt",
+        "text": "support. Summary Scikit-learn provides reliable and efficient machine learning tools for data analysis and predictive modeling, making it one of the most widely adopted ML libraries. Source Scikit-learn Documentation https://scikit-learn.org/stable/"
+    }
+]

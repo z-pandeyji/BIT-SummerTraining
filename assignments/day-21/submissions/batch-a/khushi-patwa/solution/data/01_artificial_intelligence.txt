@@ -1,0 +1,38 @@
+TITLE: Artificial Intelligence (AI)
+
+Definition
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on building systems capable of performing tasks that normally require human intelligence. These tasks include learning from data, recognizing patterns, understanding language, solving problems, making decisions, and interacting with users. AI combines algorithms, data, and computing power to create systems that can improve their performance over time.
+
+How It Works
+
+AI systems learn by analyzing data and identifying relationships within that data. Traditional AI systems use predefined rules, while modern AI relies heavily on Machine Learning and Deep Learning models. These models are trained using large datasets, allowing them to recognize patterns and make predictions. The quality of the data, learning algorithm, and computational resources all affect the performance of an AI system.
+
+Applications
+
+Artificial Intelligence is widely used across many industries. Healthcare uses AI for disease prediction and medical image analysis. Finance uses AI for fraud detection and risk assessment. E-commerce platforms recommend products using AI-based recommendation systems. AI is also used in self-driving vehicles, chatbots, virtual assistants, cybersecurity, manufacturing, education, and scientific research.
+
+Advantages
+
+- Automates repetitive tasks.
+- Processes large volumes of data quickly.
+- Improves decision-making using data-driven insights.
+- Operates continuously without fatigue.
+- Supports innovation across multiple industries.
+
+Limitations
+
+- Requires high-quality data for accurate predictions.
+- Can inherit bias present in training data.
+- High computational and infrastructure costs.
+- Ethical and privacy concerns.
+- Cannot fully replace human judgment in many critical situations.
+
+Summary
+
+Artificial Intelligence enables machines to perform intelligent tasks by learning from data and identifying patterns. It has transformed industries through automation, prediction, and intelligent decision-making. However, responsible AI development requires careful attention to fairness, privacy, transparency, and data quality.
+
+Source
+
+IBM - Artificial Intelligence Overview
+https://www.ibm.com/topics/artificial-intelligence

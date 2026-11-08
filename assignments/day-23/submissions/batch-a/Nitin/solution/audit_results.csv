@@ -1,0 +1,11 @@
+audit_check,group,metric,value
+High-income rate by sex,Female,positive_outcome_rate_percent,11.37
+High-income rate by sex,Male,positive_outcome_rate_percent,31.38
+High-income rate by race,Amer-Indian-Eskimo,positive_outcome_rate_percent,11.89
+High-income rate by race,Asian-Pac-Islander,positive_outcome_rate_percent,27.71
+High-income rate by race,Black,positive_outcome_rate_percent,12.99
+High-income rate by race,Other,positive_outcome_rate_percent,9.09
+High-income rate by race,White,positive_outcome_rate_percent,26.37
+Overall model,all,accuracy,0.8476
+Overall model,all,precision,0.7379
+Overall model,all,recall,0.6015

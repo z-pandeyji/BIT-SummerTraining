@@ -1,0 +1,34 @@
+TITLE: Large Language Models
+
+Definition
+
+Large Language Models (LLMs) are advanced AI models trained on massive collections of text to understand and generate human language. They predict the next token in a sequence based on previous tokens, allowing them to answer questions, write content, summarize information, and perform many language-related tasks.
+
+How It Works
+
+LLMs are built using the Transformer architecture. During training, they learn statistical patterns from billions of words. After training, they can generate text, answer questions, translate languages, and assist users by predicting likely responses based on context.
+
+Applications
+
+Chatbots, virtual assistants, code generation, document summarization, translation, education, customer support, healthcare assistance, and content generation.
+
+Advantages
+
+- Strong language understanding.
+- Supports multiple NLP tasks.
+- Can generalize across many domains.
+
+Limitations
+
+- May generate incorrect information.
+- Requires large computational resources.
+- Can reflect biases present in training data.
+
+Summary
+
+Large Language Models have transformed Natural Language Processing by providing powerful language understanding and generation capabilities.
+
+Source
+
+Hugging Face Documentation
+https://huggingface.co/docs/transformers

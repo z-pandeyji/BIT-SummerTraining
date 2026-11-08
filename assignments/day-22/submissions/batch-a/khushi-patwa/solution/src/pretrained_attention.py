@@ -13,7 +13,7 @@ MODEL_NAME = "bert-base-uncased"
 def load_sentences():
     """Load the experiment sentences from data/test_sentences.json."""
 
-    data_path = Path("data/test_sentences.json")
+    data_path = Path(__file__).resolve().parent.parent / "data/test_sentences.json"
 
     with open(data_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -32,7 +32,8 @@ def main():
 
     model = AutoModel.from_pretrained(
         MODEL_NAME,
-        output_attentions=True
+        output_attentions=True,
+        attn_implementation="eager"
     )
 
     model.eval()
@@ -165,7 +166,7 @@ def main():
     tokens = first_result["tokens"]
     attention = first_result["attention"]
 
-    output_dir = Path("results/plots")
+    output_dir = Path(__file__).resolve().parent.parent / "results/plots"
 
     output_dir.mkdir(
         parents=True,

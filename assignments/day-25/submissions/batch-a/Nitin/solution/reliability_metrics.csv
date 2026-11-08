@@ -1,0 +1,10 @@
+metric,value
+total_tasks,20
+successful_tasks,20
+task_success_rate_percent,100.0
+invalid_tool_calls,0
+invalid_tool_call_rate_percent,0.0
+hallucinated_answers,0
+hallucinated_answer_rate_percent,0.0
+average_tool_calls,0.85
+average_latency_seconds,0.0002

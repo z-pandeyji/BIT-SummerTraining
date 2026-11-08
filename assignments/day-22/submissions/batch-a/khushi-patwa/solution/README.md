@@ -1,4 +1,3 @@
-@'
 # Day 22 — Transformer Attention From Paper to Experiment
 
 ## Overview
@@ -34,3 +33,14 @@ solution/
     ├── attention_numpy.py
     ├── pretrained_attention.py
     └── utils.py
+```
+
+Run from this solution directory:
+
+```bash
+python -m pip install -r requirements.txt
+python src/attention_numpy.py
+python src/pretrained_attention.py
+```
+
+The pretrained experiment downloads BERT on its first run. See report/report.md for interpretation and limitations.

@@ -1,0 +1,34 @@
+TITLE: Scikit-learn
+
+Definition
+
+Scikit-learn is a popular open-source Python library that provides machine learning algorithms for classification, regression, clustering, dimensionality reduction, preprocessing, and model evaluation.
+
+How It Works
+
+Scikit-learn offers a consistent API for building machine learning workflows. Users prepare data, split datasets, train models, evaluate performance, and make predictions using built-in algorithms and utilities.
+
+Applications
+
+Classification, regression, clustering, recommendation systems, anomaly detection, natural language processing, and predictive analytics.
+
+Advantages
+
+- Easy-to-use API.
+- Large collection of machine learning algorithms.
+- Strong documentation.
+- Excellent integration with NumPy and Pandas.
+
+Limitations
+
+- Not intended for deep learning.
+- Limited GPU support.
+
+Summary
+
+Scikit-learn provides reliable and efficient machine learning tools for data analysis and predictive modeling, making it one of the most widely adopted ML libraries.
+
+Source
+
+Scikit-learn Documentation
+https://scikit-learn.org/stable/

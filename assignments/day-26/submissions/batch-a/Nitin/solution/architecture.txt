@@ -1,0 +1,110 @@
+DAY 26 - AI STUDY ASSISTANT ARCHITECTURE
+
+1. USER INPUT
+   |
+   v
+2. SAFETY / PRIVACY GUARDRAIL
+   |
+   +---- Unsafe or private request ----> BLOCK REQUEST
+   |
+   v
+3. QUESTION PROCESSING
+   |
+   v
+4. KNOWLEDGE RETRIEVAL
+   |
+   +---- Matching topic found ----> Retrieve answer
+   |
+   +---- No match -----------------> Return uncertainty message
+   |
+   v
+5. CONFIDENCE ESTIMATION
+   |
+   v
+6. RESPONSE GENERATION
+   |
+   v
+7. USER RESPONSE
+
+DATA FLOW
+
+Student Question
+      |
+      v
+Safety Check
+      |
+      v
+Keyword-Based Retrieval
+      |
+      v
+Knowledge Base
+      |
+      v
+Topic + Answer + Confidence
+      |
+      v
+Final Response
+
+
+COMPONENTS
+
+User Interface:
+A command-line interface is used for the prototype.
+
+Application Layer:
+prototype.py contains the main application logic.
+
+Knowledge Layer:
+A small manually curated knowledge base contains educational
+topics and reference answers.
+
+Retrieval:
+Keyword matching is used to select the most relevant topic.
+
+Safety Layer:
+Requests containing passwords, private keys, API keys, OTPs,
+credit-card information, or similar credentials are blocked.
+
+Evaluation Layer:
+test_scenarios.csv contains the evaluation scenarios.
+
+Evidence Layer:
+evaluation_results.csv stores predicted topics, success,
+confidence, latency, correctness, and failure reason.
+
+FAILURE HANDLING
+
+1. Private or sensitive request:
+   Block the request and provide a privacy warning.
+
+2. Unknown question:
+   Do not invent an answer. Return an insufficient-knowledge message.
+
+3. Topic ambiguity:
+   Return the best available matching topic and confidence score.
+
+4. Evaluation failure:
+   Store the failure reason in evaluation_results.csv.
+
+STORAGE
+
+The prototype uses local CSV files and in-memory Python data.
+No external database is required.
+
+MODEL CHOICE
+
+The prototype intentionally uses a lightweight retrieval-based
+approach instead of a large language model. This makes the system
+fast, reproducible, inexpensive, and suitable for a classroom
+prototype.
+
+FUTURE PRODUCTION ARCHITECTURE
+
+For production deployment, the keyword retrieval component could
+be replaced with an embedding-based retrieval system and a
+validated language model. A database or vector store could be
+introduced for larger educational content collections.
+
+Security controls should include authentication, authorization,
+encrypted storage, secret management, data minimization,
+audit logging, and access-controlled monitoring.

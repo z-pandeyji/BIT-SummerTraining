@@ -1,0 +1,33 @@
+TITLE: Tokenization
+
+Definition
+
+Tokenization is the process of breaking text into smaller units called tokens. Depending on the tokenizer, a token may represent a word, subword, character, or punctuation symbol. Tokenization is one of the first preprocessing steps in Natural Language Processing.
+
+How It Works
+
+The tokenizer reads input text and splits it into tokens according to predefined rules or learned algorithms. Modern Transformer models often use subword tokenization methods such as Byte Pair Encoding (BPE) or WordPiece to efficiently represent vocabulary.
+
+Applications
+
+Natural Language Processing, Machine Translation, Text Classification, Sentiment Analysis, Chatbots, Large Language Models, and Retrieval-Augmented Generation.
+
+Advantages
+
+- Converts text into machine-readable units.
+- Supports efficient language modeling.
+- Reduces vocabulary size using subword methods.
+
+Limitations
+
+- Different tokenizers produce different token sequences.
+- Poor tokenization can reduce model performance.
+
+Summary
+
+Tokenization converts human language into structured units that AI models can process, making it an essential step in modern NLP pipelines.
+
+Source
+
+Hugging Face Tokenizers Documentation
+https://huggingface.co/docs/tokenizers

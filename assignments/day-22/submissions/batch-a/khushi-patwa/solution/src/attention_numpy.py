@@ -126,7 +126,7 @@ def main():
     # Save heatmap
     # ---------------------------------------------------------
 
-    output_dir = Path("results/plots")
+    output_dir = Path(__file__).resolve().parent.parent / "results/plots"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     plt.figure(figsize=(10, 7))

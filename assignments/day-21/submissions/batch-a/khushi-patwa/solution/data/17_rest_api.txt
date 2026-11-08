@@ -1,0 +1,34 @@
+TITLE: REST API
+
+Definition
+
+A REST API (Representational State Transfer Application Programming Interface) is a web service architecture that enables communication between different software applications using standard HTTP methods. REST APIs exchange data in formats such as JSON, making them lightweight and platform-independent.
+
+How It Works
+
+Clients send HTTP requests such as GET, POST, PUT, and DELETE to a server. The server processes the request and returns an appropriate response. REST APIs are stateless, meaning each request contains all the information needed for processing.
+
+Applications
+
+REST APIs are used in web applications, mobile applications, cloud services, AI platforms, e-commerce systems, and third-party integrations.
+
+Advantages
+
+- Simple and scalable.
+- Platform independent.
+- Uses standard HTTP methods.
+- Easy integration with frontend applications.
+
+Limitations
+
+- Stateless communication may require additional authentication mechanisms.
+- Multiple requests may be required for complex operations.
+
+Summary
+
+REST APIs provide a standardized and efficient method for communication between software systems and are widely used in modern application development.
+
+Source
+
+MDN Web Docs
+https://developer.mozilla.org/
